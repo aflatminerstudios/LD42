@@ -18,7 +18,7 @@ if (!orbiting && !landed) {
     running = false;
   } 
   if (running) {
-    speed += accel
+    speed += accel;
     if ((x + sprite_width / 2) < (platform.x - platform.sprite_width / 2)) {
       running = false;
       if (!jumping) {
