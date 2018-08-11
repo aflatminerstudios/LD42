@@ -11,7 +11,7 @@ var hit = false;
 with (player) {
   if (place_meeting(x, y, target)) {
     hit = true;
-    points += scrScoreTarget(x, y, target);    
+    points += scrScoreTarget(x, y, target, player);    
   }
 }
 

@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 scoreWidth = 5;
-points = 10;
+points = 1000;

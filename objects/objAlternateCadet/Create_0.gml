@@ -4,8 +4,8 @@
 event_inherited();
 
 maxSpeed = 20;
-numjumps = 0;
-maxjumps = 4;
+numJumps = 0;
+maxJumps = 4;
 multijumping = false;
 
 multijumpSpeed = 0.5;
@@ -19,3 +19,5 @@ image_blend = make_color_rgb(244, 83, 66)
 targetX = 0;
 targetY = 0;
 landingSpeed = 5;
+
+scoreMult = 1.5;
