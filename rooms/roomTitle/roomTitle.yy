@@ -7,7 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "df6eed6c-4bf2-4731-b1cd-281e3e498a23",
+        "039898d4-696b-404f-993d-39b343788a2d"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_39027631","id": "df6eed6c-4bf2-4731-b1cd-281e3e498a23","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_39027631","objId": "ff03cd68-cb37-4b35-98be-0dd35f3d484a","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0},
+{"name": "inst_5746125F","id": "039898d4-696b-404f-993d-39b343788a2d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5746125F","objId": "561541a1-5c06-4f04-8ad2-ba90e2428f35","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 400,"y": 300}
             ],
             "layers": [
 
@@ -43,7 +45,7 @@
             "id": "1e2898d2-538e-498a-9810-8a5d81e9c852",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4278220033 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -87,12 +89,12 @@
     },
     "roomSettings":     {
         "id": "02d9128e-cd0c-4418-8326-010b0fdaab6a",
-        "Height": 768,
+        "Height": 600,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1024
+        "Width": 800
     },
     "mvc": "1.0",
     "views": [
