@@ -9,9 +9,9 @@ event_inherited();
 if (!orbiting) {
   
   //If not orbiting, accept input
-  if (keyboard_check_pressed(vk_anykey) && !running) {
+  if (scrIsRunPressed() && !running) {
     running = true;
-  } else if (keyboard_check_pressed(vk_anykey) && running) {
+  } else if (scrIsJumpPressed() && running) {
     startSpeed = speed;
     jumping = true;
     running = false;
