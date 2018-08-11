@@ -1,4 +1,4 @@
-/// @description
+/// @description adjust orbiter's movement based on orbitObject
 /// @param orbiter orbiting object
 /// @param planet  object to orbit
 

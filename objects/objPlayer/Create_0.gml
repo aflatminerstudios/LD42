@@ -8,6 +8,7 @@ jumping = false;
 running = false;
 orbiting = false;
 hitPForm = false;
+landed = false;
 
 //Objects to interact with
 orbitObject = instance_find(objPlanet, 0);
@@ -15,7 +16,7 @@ platform = instance_find(objPlatform, 0);
 
 //Start out standing still and falling
 speed = 0;
-direction = 180;
+direction = platform.image_angle + 180;
 
 origVspeed = vspeed;
 
