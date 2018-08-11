@@ -25,5 +25,8 @@ accel = 1;
 
 //Jump related vars (non-state vars, at least)
 jumpAccel = 0.5;
+jumpSpeed = 0.05;
 jumpTime = 0;
-jumpMaxTime = 30;
+jumpMaxTime = 15;
+maxJumpSpeed = -5;
+startSpeed = 0;

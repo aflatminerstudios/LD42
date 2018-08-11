@@ -33,6 +33,43 @@ var dist = max(point_distance(orbiter.x, orbiter.y, orbitObject.x, orbitObject.y
 var dir = point_direction(orbiter.x, orbiter.y, orbitObject.x, orbitObject.y);
 var strength = 1 / sqrt(dist) * orbitObject.gravityStrength;
 
+//set a minimum strength
+if (strength < 0.1)
+  strength = 0.1;
+  
 with (orbiter) {
   motion_add(dir, strength);
 }
+
+/*
+var dist = point_distance(orbiter.x, orbiter.y, orbitObject.x, orbitObject.y);
+var force = 100000 / (dist * dist);
+
+var distx = (orbitObject.x - orbiter.x) / dist;
+var disty = (orbitObject.y - orbiter.y) / dist;
+
+hspeed += distx * force;
+vspeed += disty * force;
+*/
+
+//From yellowafterlife
+/*
+var cx, cy, crad, clen, cdir, cnext, nx, ny;
+// retrieve variables for later use:
+cx = orbitObject.x;
+cy = orbitObject.y;
+crad = point_distance(cx, cy, orbiter.x, orbiter.y);
+// find "length" of circle:
+clen = crad * pi * 2;
+// find current angle on circle:
+cdir = point_direction(cx, cy, orbiter.x, orbiter.y);
+// find next angle on circle:
+cnext = cdir + speed * 360 / clen;
+// find coordinates of next point:
+nx = cx + lengthdir_x(crad, cnext);
+ny = cy + lengthdir_y(crad, cnext);
+// set speed vector to reach that point in next step:
+hspeed = nx - orbiter.x;
+vspeed = ny - orbiter.y;
+
+*/
