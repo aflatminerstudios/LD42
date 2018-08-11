@@ -6,6 +6,11 @@ event_inherited();
 if (orbiting) {
   if (scrIsLandPressed()) {
     landing = true;
+    landingSpeed = speed;
+    targetX = x;
+    targetY = y;
+    speed = 0;
+
   }
   if (scrIsSpecialPressed()) {
     multijumping = true;
@@ -23,10 +28,11 @@ if (orbiting) {
     }
   } 
   
-  if (landing) {
-    
+/*  if (landing) {
+    speed = 3;
+    direction = point_direction(x, y, targetX, targetY);
   }
-  
+  */
   /*
   if (jumping) {
     if (jumpTime < jumpMaxTime) {

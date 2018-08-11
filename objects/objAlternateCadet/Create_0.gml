@@ -15,3 +15,7 @@ landing = false;
 
 //Remove this when we get new sprites
 image_blend = make_color_rgb(244, 83, 66)
+
+targetX = 0;
+targetY = 0;
+landingSpeed = 5;
