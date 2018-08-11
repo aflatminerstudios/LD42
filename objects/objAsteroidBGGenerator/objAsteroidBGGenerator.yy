@@ -1,28 +1,28 @@
 {
-    "id": "9eda9a74-fa9f-4e4a-abef-d02a116cde7f",
+    "id": "7d4b96ac-6703-4c25-8eec-28c4d631a6b5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objStarfieldBackground",
+    "name": "objAsteroidBGGenerator",
     "eventList": [
         {
-            "id": "32cb9a59-5afc-4804-8e59-68704a6cd9dd",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "9eda9a74-fa9f-4e4a-abef-d02a116cde7f"
-        },
-        {
-            "id": "bb965bd9-415b-4ec6-b65a-bd754a6c1d51",
+            "id": "12971bb3-0836-406c-8411-1f97cb6e7252",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "9eda9a74-fa9f-4e4a-abef-d02a116cde7f"
+            "m_owner": "7d4b96ac-6703-4c25-8eec-28c4d631a6b5"
+        },
+        {
+            "id": "dc7602f4-f8b6-4d37-a626-b40ea4876261",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "7d4b96ac-6703-4c25-8eec-28c4d631a6b5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
