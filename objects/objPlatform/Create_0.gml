@@ -5,10 +5,10 @@ moving = true;
 angling = false;
 
 moveSpeed = 2;
-angleSpeed = 1;
+angleSpeed = 3;
 
-minAngle = -90;
-maxAngle = 90;
+minAngle = -75;
+maxAngle = 75;
 
 leftBound = 480;
 rightBound = room_width;

@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "556bba0a-9175-4310-8e08-669efb2ca573",
+            "Value": {
+                "id": "a0bc633c-cfb5-4c7c-9992-ed1dbe924be9",
+                "resourcePath": "scripts\\scrIsNextModePressed\\scrIsNextModePressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "561541a1-5c06-4f04-8ad2-ba90e2428f35",
             "Value": {
                 "id": "45216a8a-1992-4448-8211-041ba5f8eda8",
@@ -420,6 +428,14 @@
                 "id": "9664a6e5-13ae-4a3f-8cf2-985975c82e06",
                 "resourcePath": "objects\/objInitializeControl\/objInitializeControl.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "afa9b1cb-d789-4bcb-bf99-3dd3b169594b",
+            "Value": {
+                "id": "8cd64052-947b-461b-9c1f-4ded81aab166",
+                "resourcePath": "scripts\\scrSpawnPlayer\\scrSpawnPlayer.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -692,8 +708,10 @@
         "26f914c4-5f41-4673-be20-d113e9c5b7e8",
         "ebab8955-522b-4911-8d3e-11745c7da32a",
         "b27580d4-2ea4-4a55-9163-98f4b8401834",
+        "556bba0a-9175-4310-8e08-669efb2ca573",
         "de7b16a3-8c83-4c89-8d38-ebefc3afe4d7",
-        "e253f0c2-b75d-40b5-8a7a-8f5c2cc4fbab"
+        "e253f0c2-b75d-40b5-8a7a-8f5c2cc4fbab",
+        "afa9b1cb-d789-4bcb-bf99-3dd3b169594b"
     ],
     "tutorial": ""
 }

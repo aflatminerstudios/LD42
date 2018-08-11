@@ -14,4 +14,21 @@ if (moving) {
   if (scrIsDownPressed() && (y + sprite_height / 2 < bottomBound)) {
     y += moveSpeed; 
   }
+  
+  if (scrIsNextModePressed()) {
+    moving = false;
+    angling = true;
+  }
+} else if (angling) {
+  if (scrIsDownPressed() && image_angle < maxAngle) {
+    image_angle += angleSpeed; 
+  }
+  if (scrIsUpPressed() && image_angle > minAngle) {
+    image_angle -= angleSpeed; 
+  }
+  
+  if (scrIsNextModePressed()) {
+    angling = false;
+    scrSpawnPlayer(self.id);
+  }
 }
