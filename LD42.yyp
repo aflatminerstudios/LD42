@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "61cd6fb1-3c2b-419c-9631-8da039168b3a",
+            "Value": {
+                "id": "cb647d36-6645-4154-8ed4-5a97582ff571",
+                "resourcePath": "objects\\objAlternateCadet\\objAlternateCadet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "65b337d4-5d37-4cec-9260-d90b50d1f015",
             "Value": {
                 "id": "13f09350-0683-4944-ab37-ecb609eebe82",
