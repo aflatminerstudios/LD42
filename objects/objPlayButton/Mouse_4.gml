@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-scrGoToCharacterSelect();
+if (selected) {
+  global.character = selectedChar;
+  scrStartMainGame();
+}
