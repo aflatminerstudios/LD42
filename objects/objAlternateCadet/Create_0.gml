@@ -8,7 +8,10 @@ numjumps = 0;
 maxjumps = 4;
 multijumping = false;
 
-multijumpSpeed = 0.2;
+multijumpSpeed = 0.5;
 multijumpMaxTime = 10;
 
+landing = false;
+
+//Remove this when we get new sprites
 image_blend = make_color_rgb(244, 83, 66)

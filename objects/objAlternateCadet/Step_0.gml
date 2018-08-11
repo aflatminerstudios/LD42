@@ -4,8 +4,8 @@
 event_inherited();
 
 if (orbiting) {
-  if (scrIsLandHeld()) {
-    
+  if (scrIsLandPressed()) {
+    landing = true;
   }
   if (scrIsSpecialPressed()) {
     multijumping = true;
@@ -15,13 +15,17 @@ if (orbiting) {
   if (multijumping) {
     if (jumpTime < multijumpMaxTime) {
       jumpTime += 1;
-      speed += accel;
+     
       var dir = point_direction(orbitObject.x, orbitObject.y, x, y);
       motion_add(dir, multijumpSpeed);
     } else {
       multijumping = false;
     }
   } 
+  
+  if (landing) {
+    
+  }
   
   /*
   if (jumping) {
