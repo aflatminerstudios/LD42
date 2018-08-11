@@ -4,47 +4,39 @@
 event_inherited();
 
 
-if (orbiting) {
-/*
-    //If jumping, adjust based on jumping speed
-  if (jumping = true && jumpTime < jumpTop) {
-   jumpTime += 1;   
-   running = false;   
-   vspeed += jumpAccel; 
-   
-  }
-  if (jumpTime >= jumpTop) {
-    jumping = false;
-    orbiting = true; 
-  }
-  */
-} else {
+  
+
+if (!orbiting) {
   
   //If not orbiting, accept input
   if (keyboard_check_pressed(vk_anykey) && !running) {
     running = true;
   } else if (keyboard_check_pressed(vk_anykey) && running) {
+    startSpeed = speed;
     jumping = true;
     running = false;
   } 
   if (running) {
     speed += accel
     if ((x + sprite_width / 2) < (platform.x - platform.sprite_width / 2)) {
-      orbiting = true;
+      running = false;
+      if (!jumping) {
+        orbiting = true;
+      }
     }
   }
   
   if (jumping) {
     if (jumpTime < jumpMaxTime) {
       jumpTime += 1;
-      vspeed -= jumpAccel;
+      speed += accel;
+      motion_add(135, jumpSpeed * startSpeed);
     } else {
       orbiting = true;
       jumping = false;
     }
   } 
-  
-  
+
 
     
  /*
