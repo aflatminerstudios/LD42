@@ -24,6 +24,7 @@ origVspeed = vspeed;
 //Acceleration speed
 accel = 1;
 
+maxSpeed = 200;
 
 //Jump related vars (non-state vars, at least)
 jumpAccel = 0.5;

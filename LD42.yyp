@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "2234a38f-1c2f-490e-b5c3-1f658cbe222f",
+            "Value": {
+                "id": "dd4743ff-c6a6-4b72-b9ff-ad38ca5d8f4f",
+                "resourcePath": "scripts\\scrIsSpecialPressed\\scrIsSpecialPressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "229f6814-3243-4552-a8dc-41d3e9f06fe3",
             "Value": {
                 "id": "56d5af68-8ecc-4e70-b631-a0566752d04e",
@@ -551,6 +559,14 @@
             }
         },
         {
+            "Key": "b38db4e1-f7cd-42e1-a121-e3d236e6f3b2",
+            "Value": {
+                "id": "fefb6485-3f76-4fab-9e80-e9f12b6df200",
+                "resourcePath": "scripts\\scrIsLandHeld\\scrIsLandHeld.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b3c2e614-3bf7-4947-969b-d6ab7e5a53d4",
             "Value": {
                 "id": "c94df166-704c-4b3e-bf5b-926d758782a9",
@@ -588,6 +604,14 @@
                 "id": "cf901954-93b9-4bf2-9c85-a2a1667f38bd",
                 "resourcePath": "views\/c6093613-c55a-4485-8b4b-2d83d81538e6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c875fd6f-38e0-40ed-91d1-e259d94e56a4",
+            "Value": {
+                "id": "f20fbb44-3853-45a4-8056-4de44183888e",
+                "resourcePath": "scripts\\scrIsSpecialHeld\\scrIsSpecialHeld.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -848,11 +872,14 @@
         "8a9409d6-4d20-49ff-80e7-4b3f829132af",
         "d3ce3be8-9b14-42d2-ab60-d94e129a40ae",
         "f9224901-65bf-412a-a436-50da826f73fa",
+        "b38db4e1-f7cd-42e1-a121-e3d236e6f3b2",
         "a1226a29-15c3-48d5-9e5f-933f830bfb7d",
         "26f914c4-5f41-4673-be20-d113e9c5b7e8",
         "ebab8955-522b-4911-8d3e-11745c7da32a",
         "b27580d4-2ea4-4a55-9163-98f4b8401834",
         "556bba0a-9175-4310-8e08-669efb2ca573",
+        "2234a38f-1c2f-490e-b5c3-1f658cbe222f",
+        "c875fd6f-38e0-40ed-91d1-e259d94e56a4",
         "de7b16a3-8c83-4c89-8d38-ebefc3afe4d7",
         "e253f0c2-b75d-40b5-8a7a-8f5c2cc4fbab",
         "afa9b1cb-d789-4bcb-bf99-3dd3b169594b",

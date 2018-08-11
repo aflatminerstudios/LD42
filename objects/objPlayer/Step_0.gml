@@ -78,3 +78,6 @@ if (!orbiting && !landed) {
   
 }
 
+if (speed > maxSpeed) {
+  speed = maxSpeed; 
+}
