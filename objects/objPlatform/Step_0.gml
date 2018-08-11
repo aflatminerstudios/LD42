@@ -29,6 +29,7 @@ if (moving) {
   
   if (scrIsNextModePressed()) {
     angling = false;
+    scrSpawnTarget(self.id);
     scrSpawnPlayer(self.id);
   }
 }

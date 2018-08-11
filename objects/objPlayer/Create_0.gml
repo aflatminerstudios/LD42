@@ -13,6 +13,7 @@ landed = false;
 //Objects to interact with
 orbitObject = instance_find(objPlanet, 0);
 platform = instance_find(objPlatform, 0);
+target = noone;
 
 //Start out standing still and falling
 speed = 0;

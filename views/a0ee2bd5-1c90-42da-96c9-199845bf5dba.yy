@@ -6,10 +6,12 @@
     "children": [
         "de7b16a3-8c83-4c89-8d38-ebefc3afe4d7",
         "e253f0c2-b75d-40b5-8a7a-8f5c2cc4fbab",
-        "afa9b1cb-d789-4bcb-bf99-3dd3b169594b"
+        "afa9b1cb-d789-4bcb-bf99-3dd3b169594b",
+        "9d5e409e-2c4a-49c4-a776-4f4b05fee2e7",
+        "9b102dde-3278-4a33-a319-f7681f84e7f0"
     ],
     "filterType": "GMScript",
-    "folderName": "Player Scripts",
+    "folderName": "GamePlay",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
