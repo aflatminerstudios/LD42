@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "a0ee2bd5-1c90-42da-96c9-199845bf5dba",
+            "Value": {
+                "id": "94372fef-c90d-4333-9612-b134e2a29ad9",
+                "resourcePath": "views\\a0ee2bd5-1c90-42da-96c9-199845bf5dba.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a0f610bf-016b-4475-a8c0-559ca3f920a9",
             "Value": {
                 "id": "16181806-1c1b-4376-a451-216a26270451",
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "de7b16a3-8c83-4c89-8d38-ebefc3afe4d7",
+            "Value": {
+                "id": "1563befd-b0c8-47d7-ad04-757b22ddbb6c",
+                "resourcePath": "scripts\\scrCheckGround\\scrCheckGround.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dec2ffba-a725-487b-81b6-05f5089caacc",
             "Value": {
                 "id": "01e875f7-1bbc-4939-8168-e759b29ff2f2",
@@ -540,6 +556,14 @@
                 "id": "8f2b13a1-fcb9-441b-88cd-d3d57c8bd2bf",
                 "resourcePath": "rooms\/roomInitialize\/roomInitialize.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e253f0c2-b75d-40b5-8a7a-8f5c2cc4fbab",
+            "Value": {
+                "id": "533d0a02-5d1b-47aa-aa1e-f420cd44afb6",
+                "resourcePath": "scripts\\scrHitGround\\scrHitGround.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -631,7 +655,9 @@
         "cdd75c62-d64b-4436-bc08-97f679daaaa4",
         "8a9409d6-4d20-49ff-80e7-4b3f829132af",
         "d3ce3be8-9b14-42d2-ab60-d94e129a40ae",
-        "f9224901-65bf-412a-a436-50da826f73fa"
+        "f9224901-65bf-412a-a436-50da826f73fa",
+        "de7b16a3-8c83-4c89-8d38-ebefc3afe4d7",
+        "e253f0c2-b75d-40b5-8a7a-8f5c2cc4fbab"
     ],
     "tutorial": ""
 }

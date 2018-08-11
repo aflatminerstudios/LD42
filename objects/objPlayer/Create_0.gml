@@ -8,6 +8,7 @@ jumping = false;
 running = false;
 orbiting = false;
 hitPForm = false;
+landed = false;
 
 //Objects to interact with
 orbitObject = instance_find(objPlanet, 0);

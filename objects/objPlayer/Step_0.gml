@@ -1,12 +1,13 @@
-/// @description Insert description here
+/// @description Startup code and other basic checks
 // You can write your code in this editor
 
 event_inherited();
 
+if (!landed && scrCheckGround(self.id)) {
+  scrHitGround(); 
+}
 
-  
-
-if (!orbiting) {
+if (!orbiting && !landed) {
   
   //If not orbiting, accept input
   if (scrIsRunPressed() && !running) {
@@ -76,3 +77,4 @@ if (!orbiting) {
   */
   
 }
+

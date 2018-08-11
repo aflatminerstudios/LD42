@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objBasicCadet",
     "eventList": [
-        
+        {
+            "id": "7553dbbe-3494-42fb-ad07-678707d5ef34",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "89021878-3387-493d-95b4-01514db7d8be"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
