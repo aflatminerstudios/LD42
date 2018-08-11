@@ -1,23 +1,24 @@
-/// @description Insert description here
+/// @description Startup code and other basic checks
 // You can write your code in this editor
 
 event_inherited();
 
+if (!landed && scrCheckGround(self.id)) {
+  scrHitGround(); 
+}
 
-  
-
-if (!orbiting) {
+if (!orbiting && !landed) {
   
   //If not orbiting, accept input
-  if (keyboard_check_pressed(vk_anykey) && !running) {
+  if (scrIsRunPressed() && !running) {
     running = true;
-  } else if (keyboard_check_pressed(vk_anykey) && running) {
+  } else if (scrIsJumpPressed() && running) {
     startSpeed = speed;
     jumping = true;
     running = false;
   } 
   if (running) {
-    speed += accel
+    speed += accel;
     if ((x + sprite_width / 2) < (platform.x - platform.sprite_width / 2)) {
       running = false;
       if (!jumping) {
@@ -76,3 +77,4 @@ if (!orbiting) {
   */
   
 }
+

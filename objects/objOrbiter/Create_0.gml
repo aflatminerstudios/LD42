@@ -4,6 +4,7 @@
 
 orbiting = true;
 
+
 orbitObject = instance_find(objPlanet, 0);
 
 
