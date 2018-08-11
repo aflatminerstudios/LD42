@@ -3,6 +3,9 @@
 
 randomize();
 
+//Setting up global variables
+global.character = noone;
+
 //Setting up constants
 #macro PLANET_TARGET_DEPTH_DIFF 1
 #macro PLATFORM_PLAYER_DEPTH_DIFF 1
