@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "26f914c4-5f41-4673-be20-d113e9c5b7e8",
+            "Value": {
+                "id": "fb5950e0-013f-4b19-a270-39153e7706a7",
+                "resourcePath": "scripts\\scrIsRightPressed\\scrIsRightPressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2cb4df5e-38a9-4268-b9f2-b844ed414e8d",
             "Value": {
                 "id": "3fb2e083-301a-4e06-87f8-ecdecce9a0e8",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "a1226a29-15c3-48d5-9e5f-933f830bfb7d",
+            "Value": {
+                "id": "97645986-e829-4e35-b78b-e2667078ec93",
+                "resourcePath": "scripts\\scrIsLeftPressed\\scrIsLeftPressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "f344b496-094e-4f53-981a-30f1c4f9b1e7",
@@ -404,6 +420,14 @@
                 "id": "9664a6e5-13ae-4a3f-8cf2-985975c82e06",
                 "resourcePath": "objects\/objInitializeControl\/objInitializeControl.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b27580d4-2ea4-4a55-9163-98f4b8401834",
+            "Value": {
+                "id": "0e4c7e5b-43e6-4fba-86e8-1e6b9c0d2bb8",
+                "resourcePath": "scripts\\scrIsDownPressed\\scrIsDownPressed.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -599,6 +623,14 @@
             }
         },
         {
+            "Key": "ebab8955-522b-4911-8d3e-11745c7da32a",
+            "Value": {
+                "id": "7f0a8ab8-56fb-4b09-9e8e-e16b91f62e26",
+                "resourcePath": "scripts\\scrIsUpPressed\\scrIsUpPressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "8c5fb4b1-32f3-4974-b819-92cb1feb0561",
@@ -656,6 +688,10 @@
         "8a9409d6-4d20-49ff-80e7-4b3f829132af",
         "d3ce3be8-9b14-42d2-ab60-d94e129a40ae",
         "f9224901-65bf-412a-a436-50da826f73fa",
+        "a1226a29-15c3-48d5-9e5f-933f830bfb7d",
+        "26f914c4-5f41-4673-be20-d113e9c5b7e8",
+        "ebab8955-522b-4911-8d3e-11745c7da32a",
+        "b27580d4-2ea4-4a55-9163-98f4b8401834",
         "de7b16a3-8c83-4c89-8d38-ebefc3afe4d7",
         "e253f0c2-b75d-40b5-8a7a-8f5c2cc4fbab"
     ],
