@@ -13,3 +13,5 @@ p.platform = platform;
 if (platform.target != noone) {
   p.target = platform.target;
 }
+
+objCameraManager.player = p;
