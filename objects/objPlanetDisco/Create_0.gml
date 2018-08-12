@@ -3,7 +3,6 @@
 
 // Call the parent Create first
 event_inherited();
-image_speed = 1.0
 
 //mass = 100000;
 //gravityStrength = 4;
