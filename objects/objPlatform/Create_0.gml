@@ -14,3 +14,5 @@ leftBound = 480;
 rightBound = room_width;
 topBound = 30;
 bottomBound = 130;
+
+numSprites = 3;
