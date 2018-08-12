@@ -15,4 +15,6 @@ global.minTime = 2;
 #macro GAMETYPE_BLINDHORSE 2
 #macro GAMETYPE_HORSE 3
 
+#macro GAMEOVER_WAITTIME 1
+
 

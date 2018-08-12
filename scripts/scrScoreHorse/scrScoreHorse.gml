@@ -24,7 +24,7 @@ if (objGameInfo.gameType == GAMETYPE_BLINDHORSE) {
 
 tempPts *= player.scoreMult;
 
-
+scrGoToGameOver(player, tempPts, hit);
 
 /*
 var timeDiff = abs(time - objGameInfo.pTime);

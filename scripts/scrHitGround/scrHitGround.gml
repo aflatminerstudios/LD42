@@ -16,6 +16,7 @@ if (objGameInfo.gameType == GAMETYPE_TARGET || (objGameInfo.gameType == GAMETYPE
     }
   }
 
+  scrGoToGameOver(player, points, hit);
   
 } else if (objGameInfo.turn == 1 && player.timeOrbiting > room_speed * global.minTime) {
   objGameInfo.turn = 2; 

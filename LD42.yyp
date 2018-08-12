@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -106,17 +106,6 @@
             "Key": "0cab150e-b9c3-48b9-b558-464a5d3a3fe8",
             "Value": {
                 "id": "366e2fd4-4e50-42a3-8048-1ac95b76fab4",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/sprCreditsGoat\/sprCreditsGoat.yy",
                 "resourceType": "GMSprite"
             }
@@ -706,6 +695,14 @@
             }
         },
         {
+            "Key": "8f2222b8-4004-4164-8c64-a56a0994c889",
+            "Value": {
+                "id": "dfd3ef38-6442-4518-92d0-9d917d80fd18",
+                "resourcePath": "scripts\\scrGoToGameOver\\scrGoToGameOver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "983b0f8e-8e4b-4648-be1a-1c3b6c3bfce0",
             "Value": {
                 "id": "8bb4ffba-2fde-4367-a521-4b46fbbac29c",
@@ -813,17 +810,6 @@
             "Key": "a4cde23e-c10a-4b0e-b1f3-708e9f18e078",
             "Value": {
                 "id": "f5644b59-f21d-47c3-9907-7bc6cca375b1",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/sprTitleForeground\/sprTitleForeground.yy",
                 "resourceType": "GMSprite"
             }
@@ -992,17 +978,6 @@
             "Key": "c6ecdc97-ce9a-4342-9475-d6d98f88539d",
             "Value": {
                 "id": "0959eaaa-0228-4581-b6af-d67f1832e672",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "scripts\/scrScrollTitleScreenTo\/scrScrollTitleScreenTo.yy",
                 "resourceType": "GMScript"
             }
@@ -1283,17 +1258,6 @@
             "Key": "edfbc967-3bdb-43c9-be69-62c39f3dd066",
             "Value": {
                 "id": "ba36e3bb-da21-458e-8a6e-393d90cd677b",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/sprTitleBackground\/sprTitleBackground.yy",
                 "resourceType": "GMSprite"
             }
@@ -1382,6 +1346,7 @@
         "9b102dde-3278-4a33-a319-f7681f84e7f0",
         "cc2f7ad2-3561-4f4b-8326-db58043bf3af",
         "2747b631-b85d-47b7-8df5-9b07f256a944",
+        "8f2222b8-4004-4164-8c64-a56a0994c889",
         "efe58a26-0150-405c-b813-1e16937177ca",
         "d33af4d9-764a-4fc0-bf34-4cff7a833fc1"
     ],
