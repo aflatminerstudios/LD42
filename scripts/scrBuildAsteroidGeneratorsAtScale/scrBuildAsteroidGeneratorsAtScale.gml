@@ -3,10 +3,10 @@
 var scale = argument0;
 var isRainbow = argument1;
 
-var middleBackBelt = instance_create_layer(-25, 55, "StarfieldMiddleDistance", objAsteroidBGGenerator);
-var topBelt = instance_create_layer(-20, 40, "StarfieldMiddleDistance", objAsteroidBGGenerator);
-var bottomBelt = instance_create_layer(-28, 77, "StarfieldMiddleDistance", objAsteroidBGGenerator);
-var middleFrontBelt = instance_create_layer(-25, 55, "StarfieldMiddleDistance", objAsteroidBGGenerator);
+var middleBackBelt = instance_create_layer(-25, 55, "StarfieldBG", objAsteroidBGGenerator);
+var topBelt = instance_create_layer(-20, 40, "StarfieldBG", objAsteroidBGGenerator);
+var bottomBelt = instance_create_layer(-28, 77, "StarfieldBG", objAsteroidBGGenerator);
+var middleFrontBelt = instance_create_layer(-25, 55, "StarfieldBG", objAsteroidBGGenerator);
 
 middleBackBelt.overallScale = 0.6;
 middleBackBelt.asteroidBlendBrightness = 180;
