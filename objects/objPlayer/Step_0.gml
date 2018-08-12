@@ -4,6 +4,9 @@
 event_inherited();
 
 if (orbiting) {
+  with (objPlatform) {
+    instance_destroy(); 
+  }
   timeOrbiting++;
 }
 
