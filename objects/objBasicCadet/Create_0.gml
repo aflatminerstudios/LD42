@@ -15,3 +15,7 @@ idleSprite = sprCadet1Idle;
 runSprite = sprCadet1Run;
 flySprite = sprCadet1Fly;
 landingSprite = sprCadet1Landing;
+powerSprite = sprJetpack;
+
+holdingSpecial = false;
+specialCount = 0;
