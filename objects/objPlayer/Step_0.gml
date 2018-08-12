@@ -3,11 +3,17 @@
 
 event_inherited();
 
-if (orbiting) {
-  with (objPlatform) {
-    instance_destroy(); 
+if (orbiting || jumping) {
+  
+  if (orbiting) {
+    with (objPlatform) {
+      instance_destroy(); 
+    }
   }
   timeOrbiting++;
+  if (timeOrbiting > room_speed * global.minTime) {
+    objHorseTimer.enoughTime = true;
+  }
 }
 
 if (!landed && scrCheckGround(self.id)) {

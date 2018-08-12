@@ -17,14 +17,17 @@ if (objGameInfo.gameType == GAMETYPE_TARGET || (objGameInfo.gameType == GAMETYPE
   }
 
   
-} else if (objGameInfo.turn == 1) {
+} else if (objGameInfo.turn == 1 && player.timeOrbiting > room_speed * global.minTime) {
   objGameInfo.turn = 2; 
   objGameInfo.pHitX = player.x;
   objGameInfo.pHitY = player.y;
   objGameInfo.pAdjX = player.x - lengthdir_x(player.sprite_width / 2, player.image_angle);
   objGameInfo.pAdjY = player.y - lengthdir_y(player.sprite_height / 2, player.image_angle);
   objGameInfo.pTime = player.timeOrbiting;
-  room_restart();
-} else {
+  objGameInfo.alarm[0] = room_speed / 2;
+} else if (objGameInfo.turn == 1) {
+  objHorseTimer.landedEarly = true;
+  objGameInfo.alarm[0] = room_speed;
+}else {
   scrScoreHorse(player);
 }

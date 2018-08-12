@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -106,17 +106,6 @@
             "Key": "0cab150e-b9c3-48b9-b558-464a5d3a3fe8",
             "Value": {
                 "id": "366e2fd4-4e50-42a3-8048-1ac95b76fab4",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/sprCreditsGoat\/sprCreditsGoat.yy",
                 "resourceType": "GMSprite"
             }
@@ -138,19 +127,19 @@
             }
         },
         {
-            "Key": "10542fe8-580a-4fa8-ad3c-f178bd4cd373",
-            "Value": {
-                "id": "2f9a3ff9-4904-419f-aaca-4f163d3a118c",
-                "resourcePath": "sprites\\sprLandNow\\sprLandNow.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
+<<<<<<< HEAD
             "Key": "11565729-9599-4473-8218-9ff5dae4951a",
             "Value": {
                 "id": "38513730-cc9a-4e9f-a44c-db8532791e37",
                 "resourcePath": "views\\11565729-9599-4473-8218-9ff5dae4951a.yy",
                 "resourceType": "GMFolder"
+=======
+            "Key": "10542fe8-580a-4fa8-ad3c-f178bd4cd373",
+            "Value": {
+                "id": "2f9a3ff9-4904-419f-aaca-4f163d3a118c",
+                "resourcePath": "sprites\\sprLandNow\\sprLandNow.yy",
+                "resourceType": "GMSprite"
+>>>>>>> master
             }
         },
         {
@@ -813,17 +802,6 @@
             "Key": "a4cde23e-c10a-4b0e-b1f3-708e9f18e078",
             "Value": {
                 "id": "f5644b59-f21d-47c3-9907-7bc6cca375b1",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/sprTitleForeground\/sprTitleForeground.yy",
                 "resourceType": "GMSprite"
             }
@@ -957,19 +935,19 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "c164334c-a8d2-4be1-8edf-8e36e8e55456",
             "Value": {
                 "id": "b5b819e0-a62e-4c82-b2e1-342bf8ff639b",
                 "resourcePath": "fonts\\fontGameOverNormal\\fontGameOverNormal.yy",
                 "resourceType": "GMFont"
-            }
-        },
-        {
+=======
             "Key": "c1f5a6b5-f527-4c5c-92b0-31ce1fad40cc",
             "Value": {
                 "id": "1299db11-f4c5-4718-9b70-d8236926048d",
                 "resourcePath": "sprites\\sprLandedEarly\\sprLandedEarly.yy",
                 "resourceType": "GMSprite"
+>>>>>>> master
             }
         },
         {
@@ -992,17 +970,6 @@
             "Key": "c6ecdc97-ce9a-4342-9475-d6d98f88539d",
             "Value": {
                 "id": "0959eaaa-0228-4581-b6af-d67f1832e672",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "scripts\/scrScrollTitleScreenTo\/scrScrollTitleScreenTo.yy",
                 "resourceType": "GMScript"
             }
@@ -1283,17 +1250,6 @@
             "Key": "edfbc967-3bdb-43c9-be69-62c39f3dd066",
             "Value": {
                 "id": "ba36e3bb-da21-458e-8a6e-393d90cd677b",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/sprTitleBackground\/sprTitleBackground.yy",
                 "resourceType": "GMSprite"
             }
