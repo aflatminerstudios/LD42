@@ -306,7 +306,7 @@
             "Key": "27ca0ee1-ec32-41af-834b-6aa6cf49f26d",
             "Value": {
                 "id": "cba8183d-8a5c-460b-ab6f-886704bae730",
-                "resourcePath": "objects\/objEscapeGameControl\/objEscapeGameControl.yy",
+                "resourcePath": "objects\\objGameControl\\objGameControl.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1323,9 +1323,9 @@
         "7cd5b826-e4f7-4e5f-bf48-d46f767d0316",
         "eb011a3f-c286-49c9-9d3e-e4ea4fb5b481",
         "c6ecdc97-ce9a-4342-9475-d6d98f88539d",
-        "c5cb0fe7-b910-46e0-b9cd-17b6bb841300",
         "76c9c65f-8414-4cb0-8b9d-2ccb57923fbd",
         "22b847c2-f90a-4270-9f5d-faa99fde67dd",
+        "c5cb0fe7-b910-46e0-b9cd-17b6bb841300",
         "594f7c0a-94dc-42b8-ae00-e3bf925ebf7d",
         "cdd75c62-d64b-4436-bc08-97f679daaaa4",
         "8a9409d6-4d20-49ff-80e7-4b3f829132af",

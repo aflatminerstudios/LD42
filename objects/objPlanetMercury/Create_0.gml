@@ -5,6 +5,6 @@
 event_inherited();
 
 //mass = 100000;
-//gravityStrength = 4;
-//onePoint = 20;
-//maxPull = 3;
+gravityStrength = 3;
+onePoint = 15;
+maxPull = 2.5;

@@ -5,6 +5,7 @@ randomize();
 
 //Setting up global variables
 global.character = noone;
+global.planet = noone;
 global.minTime = 2;
 
 //Setting up constants
