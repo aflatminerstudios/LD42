@@ -6,6 +6,11 @@ if (ready) {
 
   if (orbiting || jumping) {
   
+    if (sprite_index != flySprite) {
+      sprite_index = flySprite;
+      image_index = 1;
+    }
+  
     if (orbiting) {
       with (objPlatform) {
         instance_destroy(); 
@@ -18,7 +23,8 @@ if (ready) {
   }
 
   if (!landed && scrCheckGround(self.id)) {
-    scrHitGround(self.id, target); 
+    sprite_index = landingSprite;
+    
   }
 
   if (!orbiting && !landed) {
@@ -32,6 +38,12 @@ if (ready) {
       running = false;
     } 
     if (running) {
+      
+      if (sprite_index != runSprite) {
+        sprite_index = runSprite; 
+        image_index = 0;
+      }
+      
       speed += accel;
       if ((x + sprite_width / 2) < (platform.x - platform.sprite_width / 2)) {
         running = false;
