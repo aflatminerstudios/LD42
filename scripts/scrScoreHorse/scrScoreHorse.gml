@@ -24,17 +24,7 @@ if (objGameInfo.gameType == GAMETYPE_BLINDHORSE) {
 
 tempPts *= player.scoreMult;
 
-if (hit) {
-  show_message("You did it! You hit near the same spot and got " + string(tempPts) + " points!");
-} else {
-  show_message("You missed! Boo!");
-}
 
-
-//TODO: Remove
-with (objGameInfo) {
-  instance_destroy(); 
-}
 
 /*
 var timeDiff = abs(time - objGameInfo.pTime);

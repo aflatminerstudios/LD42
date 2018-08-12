@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -98,17 +98,6 @@
             "Key": "0cab150e-b9c3-48b9-b558-464a5d3a3fe8",
             "Value": {
                 "id": "366e2fd4-4e50-42a3-8048-1ac95b76fab4",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/sprCreditsGoat\/sprCreditsGoat.yy",
                 "resourceType": "GMSprite"
             }
@@ -127,6 +116,14 @@
                 "id": "fdbb6001-3120-4a57-b29f-773500a012af",
                 "resourcePath": "objects\/objPlayer\/objPlayer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "11565729-9599-4473-8218-9ff5dae4951a",
+            "Value": {
+                "id": "38513730-cc9a-4e9f-a44c-db8532791e37",
+                "resourcePath": "views\\11565729-9599-4473-8218-9ff5dae4951a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -306,6 +303,14 @@
             }
         },
         {
+            "Key": "291f272d-84f4-46c6-9537-75c182289042",
+            "Value": {
+                "id": "fc7bc378-157c-44f5-ac0b-7efaa27ad817",
+                "resourcePath": "views\\291f272d-84f4-46c6-9537-75c182289042.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2cb4df5e-38a9-4268-b9f2-b844ed414e8d",
             "Value": {
                 "id": "3fb2e083-301a-4e06-87f8-ecdecce9a0e8",
@@ -319,6 +324,14 @@
                 "id": "eddf8e57-2342-4c34-9183-5d8cf8535292",
                 "resourcePath": "sprites\/sprPlanetGas\/sprPlanetGas.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2ce4c6fb-af0f-48cb-af8a-fbf230d0b2d7",
+            "Value": {
+                "id": "876764a7-ec75-46a5-b75c-edca422ed99f",
+                "resourcePath": "objects\\objGameOverControl\\objGameOverControl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -602,6 +615,14 @@
             }
         },
         {
+            "Key": "7d4e5be6-e7df-4973-b650-68dfb1765b97",
+            "Value": {
+                "id": "8c1c5aa4-b817-412b-9795-14ddf8b6d76c",
+                "resourcePath": "sprites\\sprGameOverBackground\\sprGameOverBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "576e084b-872a-40f7-a913-8777a8953d74",
@@ -671,6 +692,14 @@
                 "id": "7a3c5e0d-d5ff-436c-80d4-8baf279aed24",
                 "resourcePath": "sprites\/sprPlayButton\/sprPlayButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9a21a9ed-783b-4242-8d2c-6f81ae4180fa",
+            "Value": {
+                "id": "31ff75e2-7d8d-4bb1-9f88-e8eab04e64b6",
+                "resourcePath": "fonts\\fontGameOverGiant\\fontGameOverGiant.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -757,17 +786,6 @@
             "Key": "a4cde23e-c10a-4b0e-b1f3-708e9f18e078",
             "Value": {
                 "id": "f5644b59-f21d-47c3-9907-7bc6cca375b1",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/sprTitleForeground\/sprTitleForeground.yy",
                 "resourceType": "GMSprite"
             }
@@ -901,6 +919,14 @@
             }
         },
         {
+            "Key": "c164334c-a8d2-4be1-8edf-8e36e8e55456",
+            "Value": {
+                "id": "b5b819e0-a62e-4c82-b2e1-342bf8ff639b",
+                "resourcePath": "fonts\\fontGameOverNormal\\fontGameOverNormal.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "c5cb0fe7-b910-46e0-b9cd-17b6bb841300",
             "Value": {
                 "id": "622c8c7f-0e92-4554-a634-a11b6921a304",
@@ -920,17 +946,6 @@
             "Key": "c6ecdc97-ce9a-4342-9475-d6d98f88539d",
             "Value": {
                 "id": "0959eaaa-0228-4581-b6af-d67f1832e672",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "scripts\/scrScrollTitleScreenTo\/scrScrollTitleScreenTo.yy",
                 "resourceType": "GMScript"
             }
@@ -984,6 +999,14 @@
             }
         },
         {
+            "Key": "cd5084bb-e25f-43aa-b7e9-608774dceb27",
+            "Value": {
+                "id": "2c134d06-81c7-4f53-8260-f6487590d653",
+                "resourcePath": "fonts\\fontGameOverLarge\\fontGameOverLarge.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "cdd75c62-d64b-4436-bc08-97f679daaaa4",
             "Value": {
                 "id": "38fdf3e4-ae10-4ca0-8977-4209b175616c",
@@ -1021,6 +1044,14 @@
                 "id": "f65711b6-ac97-4627-b387-0752377983fc",
                 "resourcePath": "views\/cfd8c9de-17f8-4b28-83a7-b5425aa6dbe8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cff233be-bf58-4805-8b63-f4e05da71e8f",
+            "Value": {
+                "id": "7aad3fbd-526f-435b-a700-e488947f3d58",
+                "resourcePath": "rooms\\roomGameOver\\roomGameOver.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1195,17 +1226,6 @@
             "Key": "edfbc967-3bdb-43c9-be69-62c39f3dd066",
             "Value": {
                 "id": "ba36e3bb-da21-458e-8a6e-393d90cd677b",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-
-                ],
-                "configDeltas": [
-
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/sprTitleBackground\/sprTitleBackground.yy",
                 "resourceType": "GMSprite"
             }

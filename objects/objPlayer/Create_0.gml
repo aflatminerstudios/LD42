@@ -38,3 +38,4 @@ startSpeed = 0;
 scoreMult = 1;
 
 timeOrbiting = 0;
+name = "Noone";
