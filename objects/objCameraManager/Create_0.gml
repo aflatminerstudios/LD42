@@ -12,11 +12,14 @@ defaultZoomWidth = camera_get_view_width(view_camera[0]);
 defaultZoomHeight = camera_get_view_height(view_camera[0]);
 
 // Set "fully" zoomed settings
-zoomedWport = 800;
-zoomedHport = 600;
+fullZoomedWidth = 800;
+fullZoomedHeight = 600;
 
 
 targetWidth = 800;
 targetHeight = 600;
+ready = true;
 
-zoomRate = 0.2;
+zoomRate = 0.1;
+
+closeup = false;

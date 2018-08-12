@@ -1,6 +1,8 @@
 /// @description Initial zooming
 // You can write your code in this editor
 
+ready = false;
+
 var viewWidth = camera_get_view_width(view_camera[0]);
 var viewHeight = camera_get_view_height(view_camera[0]);
 
@@ -17,6 +19,11 @@ var shiftedY = lerp(camera_get_view_y(view_camera[0]), player.y - viewHeight / 2
 camera_set_view_pos(view_camera[0], shiftedX, shiftedY);
 
 
-if (newWidth != targetWidth || newHeight != targetHeight) {
+if (floor(newWidth) != targetWidth || floor(newHeight) != targetHeight) {  
   alarm[0] = 1; 
+} else {  
+  camera_set_view_size(view_camera[0], targetWidth, targetHeight);
+  closeup = true;
+  ready = true;
+  player.alarm[0] = 1;
 }

@@ -1,6 +1,8 @@
 /// @description Zooms all the way in
 // You can write your code in this editor
 
+ready = false;
+
 var viewWidth = camera_get_view_width(view_camera[0]);
 var viewHeight = camera_get_view_height(view_camera[0]);
 
@@ -17,6 +19,9 @@ var shiftedY = camera_get_view_y(view_camera[0]) - (newHeight - viewHeight) * 0.
 camera_set_view_pos(view_camera[0], shiftedX, shiftedY);
 
 
-if (newWidth != targetWidth || newHeight != targetHeight) {
-  alarm[0] = 1; 
+if (round(newWidth) != targetWidth || round(newHeight) != targetHeight) {  
+  alarm[1] = 1; 
+} else {
+  camera_set_view_size(view_camera[0], targetWidth, targetHeight);  
+  ready = true;
 }
