@@ -5,8 +5,7 @@ if (moving) {
   if (scrIsLeftPressed() && (x - sprite_width / 2 > leftBound)) {
     x -= moveSpeed; 
   }
-  if (scrIsRightPressed() && (x + sprite_width / 2 < rightBound)) {
-    show_debug_message(string(x + sprite_width / 2) + " : " + string(rightBound));
+  if (scrIsRightPressed() && (x + sprite_width / 2 < rightBound)) {    
     x += moveSpeed; 
   }
   if (scrIsUpPressed() && (y - sprite_height / 2 > topBound)) {
