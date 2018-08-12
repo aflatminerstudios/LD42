@@ -1,8 +1,8 @@
 {
-    "id": "95b2b6a7-5889-48f0-9501-2649b8686075",
+    "id": "c6ecdc97-ce9a-4342-9475-d6d98f88539d",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scrShowCreditsScreen",
+    "name": "scrScrollTitleScreenTo",
     "IsCompatibility": false,
     "IsDnD": false
 }
