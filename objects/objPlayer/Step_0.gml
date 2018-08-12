@@ -4,7 +4,7 @@
 event_inherited();
 
 if (!landed && scrCheckGround(self.id)) {
-  scrHitGround(); 
+  scrHitGround(self.id, target); 
 }
 
 if (!orbiting && !landed) {
@@ -78,3 +78,6 @@ if (!orbiting && !landed) {
   
 }
 
+if (speed > maxSpeed) {
+  speed = maxSpeed; 
+}
