@@ -1,28 +1,18 @@
 {
-    "id": "9eda9a74-fa9f-4e4a-abef-d02a116cde7f",
+    "id": "27ca0ee1-ec32-41af-834b-6aa6cf49f26d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objStarfieldBackground",
+    "name": "objEscapeGameControl",
     "eventList": [
         {
-            "id": "32cb9a59-5afc-4804-8e59-68704a6cd9dd",
+            "id": "928feb3c-9c2e-4ad5-8c4c-c11b6ffad1da",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "9eda9a74-fa9f-4e4a-abef-d02a116cde7f"
-        },
-        {
-            "id": "bb965bd9-415b-4ec6-b65a-bd754a6c1d51",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "9eda9a74-fa9f-4e4a-abef-d02a116cde7f"
+            "enumb": 27,
+            "eventtype": 9,
+            "m_owner": "27ca0ee1-ec32-41af-834b-6aa6cf49f26d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
