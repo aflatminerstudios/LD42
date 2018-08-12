@@ -1,8 +1,8 @@
 {
-    "id": "00b0022e-e344-4182-9dd0-c6070189406f",
+    "id": "6d377e45-9770-4c94-a59a-49799c51b895",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scrIsZoomInPressed",
+    "name": "scrIsFollowTogglePressed",
     "IsCompatibility": false,
     "IsDnD": false
 }

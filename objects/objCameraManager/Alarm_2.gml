@@ -1,11 +1,14 @@
+/// @description Zooms in/out a specific amount
+// You can write your code in this editor
+
 /// @description Zooms all the way in/out
 // You can write your code in this editor
 
 var viewWidth = camera_get_view_width(view_camera[0]);
 var viewHeight = camera_get_view_height(view_camera[0]);
 
-var newWidth = lerp(viewWidth, targetWidth, zoomRate);
-var newHeight = lerp(viewHeight, targetHeight, zoomRate);
+var newWidth = viewWidth + zoomDelta;
+var newHeight = viewHeight + zoomDelta;
 
 //Update size
 camera_set_view_size(view_camera[0], newWidth, newHeight);

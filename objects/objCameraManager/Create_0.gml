@@ -23,3 +23,9 @@ ready = true;
 zoomRate = 0.1;
 
 closeup = false;
+
+zoomDelta = 1.02;
+followPlayer = true;
+
+playerHBorder = camera_get_view_border_x(view_camera[0]);
+playerVBorder = camera_get_view_border_y(view_camera[0]);
