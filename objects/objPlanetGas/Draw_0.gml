@@ -3,3 +3,6 @@
 
 draw_sprite(sprPlanetGasAtmosphere, 0, x, y);
 draw_self();
+if (showRing) {
+  draw_sprite(sprRing, 0, x, y); 
+}

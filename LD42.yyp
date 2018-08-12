@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "41e44e9b-32e9-4410-9d28-04e0f2cc6f17",
+            "Value": {
+                "id": "0b4c9f0b-dfef-4c66-bcd6-7ab4eaf9be18",
+                "resourcePath": "sprites\\sprRing\\sprRing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "42ee5b5a-1c33-48db-a730-8136f931d570",
             "Value": {
                 "id": "67d5bdbf-e2c3-4794-a5e8-10724bb54a56",
