@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "6fd358fa-2086-4819-8bc3-87eb6620f05f",
     "children": [
-        "efe58a26-0150-405c-b813-1e16937177ca"
+        "efe58a26-0150-405c-b813-1e16937177ca",
+        "d33af4d9-764a-4fc0-bf34-4cff7a833fc1"
     ],
     "filterType": "GMScript",
     "folderName": "Background Effects",
