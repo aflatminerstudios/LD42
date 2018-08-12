@@ -31,6 +31,11 @@ if (hit) {
 }
 
 
+//TODO: Remove
+with (objGameInfo) {
+  instance_destroy(); 
+}
+
 /*
 var timeDiff = abs(time - objGameInfo.pTime);
 

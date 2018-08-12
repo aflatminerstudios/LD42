@@ -9,4 +9,6 @@ turn = 1;
 
 pHitX = 0;
 pHitY = 0;
+pAdjX = 0;
+pAdjY = 0;
 pTime = 0;

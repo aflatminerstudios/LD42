@@ -30,8 +30,10 @@ if (moving) {
   if (scrIsNextModePressed()) {
     angling = false;
     
-    if (objGameInfo.gameType == 1) {
+    if (objGameInfo.gameType == GAMETYPE_TARGET) {
       scrSpawnTarget(self.id);
+    } else if (objGameInfo.gameType == GAMETYPE_HORSE && objGameInfo.turn == 2) {
+      scrSpawnTargetAtLocation(self.id, objGameInfo.pAdjX, objGameInfo.pAdjY);      
     }
     scrSpawnPlayer(self.id);
   }
