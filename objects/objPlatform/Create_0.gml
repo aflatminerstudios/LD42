@@ -45,3 +45,5 @@ switch(global.planet) {
     break;
     
 }
+
+alarm[0] = 1;

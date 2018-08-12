@@ -1,0 +1,1 @@
+return (keyboard_check(ord("X")) || keyboard_check(190) || keyboard_check(vk_control))
