@@ -7,10 +7,12 @@ if (orbiting) {
   if (scrIsLandHeld()) {
     var dir = point_direction(x, y, orbitObject.x, orbitObject.y);
     motion_add(dir, 3);
+    fuelUsed++;
   }
   if (scrIsSpecialHeld()) {
      var dir = point_direction(orbitObject.x, orbitObject.y, x, y);
     motion_add(dir, 3);
+    fuelUsed++;
   }
   
   image_angle = direction-90;
