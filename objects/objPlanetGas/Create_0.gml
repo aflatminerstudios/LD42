@@ -8,3 +8,10 @@ event_inherited();
 gravityStrength = 2;
 onePoint = 40;
 //maxPull = 3;
+
+showRing = false;
+/*var r = random(1);
+if (r < 0.5) {
+  showRing = true; 
+}
+*/
