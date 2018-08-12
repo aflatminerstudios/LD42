@@ -1,1 +1,1 @@
-return keyboard_check_pressed(vk_anykey);
+return keyboard_check_pressed(vk_space);

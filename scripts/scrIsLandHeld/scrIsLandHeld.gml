@@ -1,1 +1,1 @@
-return keyboard_check(vk_space);
+return keyboard_check(vk_space) || keyboard_check(ord("Q"));

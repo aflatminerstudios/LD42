@@ -9,6 +9,7 @@ running = false;
 orbiting = false;
 hitPForm = false;
 landed = false;
+ready = false; //gets set in alarm 0, activated incamera manager
 
 //Objects to interact with
 orbitObject = instance_find(objPlanet, 0);

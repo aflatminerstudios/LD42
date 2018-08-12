@@ -1,0 +1,1 @@
+return (keyboard_check(ord("Z")) || keyboard_check(188) || keyboard_check(vk_alt))

@@ -13,3 +13,7 @@ p.platform = platform;
 if (platform.target != noone) {
   p.target = platform.target;
 }
+
+objCameraManager.player = p;
+objCameraManager.alarm[0] = room_speed / 1.5;
+objCameraManager.ready = false;
