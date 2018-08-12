@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "4ba9b327-7d6a-42e3-a99f-b73f7a6d0d03",
+            "Value": {
+                "id": "b2bf28fa-75a4-41b8-b21c-71fe267addad",
+                "resourcePath": "sprites\\sprCadet1Landing\\sprCadet1Landing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4cf90fee-593a-4dd8-8f4f-66a2d5ef1049",
             "Value": {
                 "id": "c77cdc05-9f91-4104-8210-1ccae7cde1b0",
@@ -599,6 +607,14 @@
             }
         },
         {
+            "Key": "6fcfb979-3695-4229-a5d7-17496d56e7f3",
+            "Value": {
+                "id": "ec7b9fa6-906f-4b61-99a2-2c8a9dfba7c7",
+                "resourcePath": "sprites\\sprCadet1Run\\sprCadet1Run.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6fd358fa-2086-4819-8bc3-87eb6620f05f",
             "Value": {
                 "id": "c0e39b25-1504-4dd6-96d2-5cb2b732735f",
@@ -740,6 +756,14 @@
                 "id": "dfd3ef38-6442-4518-92d0-9d917d80fd18",
                 "resourcePath": "scripts\\scrGoToGameOver\\scrGoToGameOver.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "979a6d85-53e0-49fa-8e59-ba310cdae2ad",
+            "Value": {
+                "id": "4e5e2dfc-a9fe-4be2-8710-2018355ed5cb",
+                "resourcePath": "sprites\\sprCadet1Idle\\sprCadet1Idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1135,6 +1159,14 @@
             }
         },
         {
+            "Key": "d11538af-489c-4fed-a8d1-921aa08d609f",
+            "Value": {
+                "id": "6a27e9f0-e4c0-46a6-8d41-3a3c72bbb18e",
+                "resourcePath": "sprites\\sprCadet1Falling\\sprCadet1Falling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d2485e1f-ee1d-42d6-8258-116e690b4bde",
             "Value": {
                 "id": "b41a4fae-71d4-409a-bf1b-9dbd57778532",
@@ -1348,6 +1380,14 @@
                 "id": "3c3562f9-b38c-413d-bfc9-5c5157220fab",
                 "resourcePath": "scripts\/scrIsLandPressed\/scrIsLandPressed.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fb8d0e98-18bc-4ce7-83f2-7ad6b08f114d",
+            "Value": {
+                "id": "677a02f4-35d0-4609-9ef7-cca8c8256717",
+                "resourcePath": "sprites\\sprCadet1Fly\\sprCadet1Fly.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
