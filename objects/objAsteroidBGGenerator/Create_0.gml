@@ -19,3 +19,4 @@ isRainbow = false;
 // Kick off generating the first asteroid
 alarm[0] = random(asteroidMaximumCooldown);
 
+extendOnStart = true; // Whether we need to generate a screen's worth of asteroids at start

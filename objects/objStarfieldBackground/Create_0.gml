@@ -8,6 +8,6 @@ if(starfieldStyle == "nebula") {
 } else if(starfieldStyle == "clouds") {
 // run script to place clouds in bg	-- Micha TODO
 } else if(starfieldStyle == "asteroid belt") {
-	scrBuildAsteroidGeneratorsAtScale(0.5, false);
+	scrBuildAsteroidGeneratorsAtScale(1.0, false);
 }
 
