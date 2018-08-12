@@ -12,8 +12,9 @@ if (orbiting) {
     speed = 0;
 
   }
-  if (scrIsSpecialPressed()) {
+  if (scrIsSpecialPressed() && !multijumping) {
     multijumping = true;
+    numJumps++;
     jumpTime = 0;
   }
   

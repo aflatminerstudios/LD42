@@ -33,3 +33,6 @@ jumpTime = 0;
 jumpMaxTime = 15;
 maxJumpSpeed = -5;
 startSpeed = 0;
+
+//For scoring
+scoreMult = 1;
