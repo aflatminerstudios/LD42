@@ -14,6 +14,11 @@ if (orbiting) {
     var dir = point_direction(orbitObject.x, orbitObject.y, x, y);
     motion_add(dir, 3);
     fuelUsed++;
+    holdingSpecial = true;
+    specialCount++;
+  } else {    
+    specialCount = 0;
+    holdingSpecial = false; 
   }
   
   image_angle = point_direction(x, y, orbitObject.x, orbitObject.y) + 90;
