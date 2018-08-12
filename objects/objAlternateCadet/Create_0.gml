@@ -8,8 +8,8 @@ numJumps = 0;
 maxJumps = 4;
 multijumping = false;
 
-multijumpSpeed = 0.5;
-multijumpMaxTime = 10;
+multijumpSpeed = 0.7;
+multijumpMaxTime = 15;
 
 landing = false;
 

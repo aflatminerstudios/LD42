@@ -3,6 +3,10 @@
 
 event_inherited();
 
+if (orbiting) {
+  timeOrbiting++;
+}
+
 if (!landed && scrCheckGround(self.id)) {
   scrHitGround(self.id, target); 
 }

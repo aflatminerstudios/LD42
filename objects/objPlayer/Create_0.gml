@@ -36,3 +36,5 @@ startSpeed = 0;
 
 //For scoring
 scoreMult = 1;
+
+timeOrbiting = 0;
