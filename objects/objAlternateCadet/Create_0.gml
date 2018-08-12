@@ -22,3 +22,12 @@ landingSpeed = 5;
 
 scoreMult = 1.5;
 name = "Alternate";
+
+idleSprite = sprCadet1Idle;
+runSprite = sprCadet1Run;
+flySprite = sprCadet1Fly;
+landingSprite = sprCadet1Landing;
+powerSprite = sprBoost;
+
+powerIndex = 0;
+pressedSpecial = false;

@@ -14,6 +14,7 @@ if (orbiting) {
   }
   if (scrIsSpecialPressed() && !multijumping) {
     multijumping = true;
+    pressedSpecial = true;
     numJumps++;
     jumpTime = 0;
   }
@@ -48,5 +49,5 @@ if (orbiting) {
   */
   
   
-  image_angle = direction-90;
+  image_angle = point_direction(x, y, orbitObject.x, orbitObject.y) + 90;
 }
