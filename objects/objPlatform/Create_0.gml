@@ -12,29 +12,36 @@ maxAngle = 75;
 
 leftBound = 480;
 bottomBound = 130;
-rightBound = 2384;
-topBound = 30;
+
 
 numSprites = 3;
 
 target = noone;
+
+
+
+centerx = room_width / 2;
+centery = room_height / 2;
+
+rightBound = centerx + 1008;
+topBound = 30;
+leftBound = centerx;
 
 switch(global.planet) {
 
   case objPlanetBlue:
   case objPlanetGas:
   case objPlanetDisco:  
-    leftBound = 1376;
-    bottomBound = 290;
-    x = 1664;
-    y = 180;
+    bottomBound = centery - 478;
+    x = centerx + 288;
+    y = centery - 588;
     break;
     
   case objPlanetMercury:
-    leftBound = 1376;
-    bottomBound = 520;
-    x = 1664;
-    y = 400;  
+
+    bottomBound = centery - 248;
+    x = centerx + 288;
+    y = centery - 368;  
     break;
     
 }
