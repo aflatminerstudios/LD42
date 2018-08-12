@@ -40,3 +40,11 @@ scoreMult = 1;
 
 timeOrbiting = 0;
 name = "Noone";
+
+//Sprite variables. by default using cadet 1
+idleSprite = sprCadet1Idle;
+runSprite = sprCadet1Run;
+flySprite = sprCadet1Fly;
+landingSprite = sprCadet1Landing;
+powerSprite = sprJetpack;
+
