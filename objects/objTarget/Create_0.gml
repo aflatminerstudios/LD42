@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-scoreWidth = 5;
+scoreWidth = 20;
 points = 1000;
+
+maxSteps = sprite_height / scoreWidth;
