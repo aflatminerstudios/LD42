@@ -5,6 +5,7 @@ randomize();
 
 //Setting up global variables
 global.character = noone;
+global.planet = noone;
 global.minTime = 2;
 global.asteroidBGPercentage = 1.0; // Lower to 0.5, etc. to decrease the number of astroids used in the bg (slowdown)
 

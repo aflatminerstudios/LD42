@@ -2,7 +2,7 @@
     "id": "27ca0ee1-ec32-41af-834b-6aa6cf49f26d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objEscapeGameControl",
+    "name": "objGameControl",
     "eventList": [
         {
             "id": "928feb3c-9c2e-4ad5-8c4c-c11b6ffad1da",
@@ -12,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 27,
             "eventtype": 9,
+            "m_owner": "27ca0ee1-ec32-41af-834b-6aa6cf49f26d"
+        },
+        {
+            "id": "f6a8f147-5e38-467e-b22d-7e84d1e02e8c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "27ca0ee1-ec32-41af-834b-6aa6cf49f26d"
         }
     ],

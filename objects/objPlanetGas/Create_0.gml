@@ -5,6 +5,13 @@
 event_inherited();
 
 //mass = 100000;
-//gravityStrength = 4;
-//onePoint = 20;
+gravityStrength = 2;
+onePoint = 40;
 //maxPull = 3;
+
+showRing = false;
+/*var r = random(1);
+if (r < 0.5) {
+  showRing = true; 
+}
+*/
