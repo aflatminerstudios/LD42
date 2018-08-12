@@ -16,12 +16,7 @@ if (objGameInfo.gameType == GAMETYPE_TARGET || (objGameInfo.gameType == GAMETYPE
     }
   }
 
-
-  if (hit) {
-    show_message("You did it! You hit the target and got " + string(points) + " points!");
-  } else {
-    show_message("You hit the ground! You missed! Boo!");
-  }
+  scrGoToGameOver(player, points, hit);
   
 } else if (objGameInfo.turn == 1 && player.timeOrbiting > room_speed * global.minTime) {
   objGameInfo.turn = 2; 
@@ -36,5 +31,4 @@ if (objGameInfo.gameType == GAMETYPE_TARGET || (objGameInfo.gameType == GAMETYPE
   objGameInfo.alarm[0] = room_speed;
 }else {
   scrScoreHorse(player);
-  
 }

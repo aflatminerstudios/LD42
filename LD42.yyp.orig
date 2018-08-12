@@ -127,19 +127,19 @@
             }
         },
         {
-            "Key": "10542fe8-580a-4fa8-ad3c-f178bd4cd373",
-            "Value": {
-                "id": "2f9a3ff9-4904-419f-aaca-4f163d3a118c",
-                "resourcePath": "sprites\\sprLandNow\\sprLandNow.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
+<<<<<<< HEAD
             "Key": "11565729-9599-4473-8218-9ff5dae4951a",
             "Value": {
                 "id": "38513730-cc9a-4e9f-a44c-db8532791e37",
                 "resourcePath": "views\\11565729-9599-4473-8218-9ff5dae4951a.yy",
                 "resourceType": "GMFolder"
+=======
+            "Key": "10542fe8-580a-4fa8-ad3c-f178bd4cd373",
+            "Value": {
+                "id": "2f9a3ff9-4904-419f-aaca-4f163d3a118c",
+                "resourcePath": "sprites\\sprLandNow\\sprLandNow.yy",
+                "resourceType": "GMSprite"
+>>>>>>> master
             }
         },
         {
@@ -695,14 +695,6 @@
             }
         },
         {
-            "Key": "8f2222b8-4004-4164-8c64-a56a0994c889",
-            "Value": {
-                "id": "dfd3ef38-6442-4518-92d0-9d917d80fd18",
-                "resourcePath": "scripts\\scrGoToGameOver\\scrGoToGameOver.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "983b0f8e-8e4b-4648-be1a-1c3b6c3bfce0",
             "Value": {
                 "id": "8bb4ffba-2fde-4367-a521-4b46fbbac29c",
@@ -943,19 +935,19 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "c164334c-a8d2-4be1-8edf-8e36e8e55456",
             "Value": {
                 "id": "b5b819e0-a62e-4c82-b2e1-342bf8ff639b",
                 "resourcePath": "fonts\\fontGameOverNormal\\fontGameOverNormal.yy",
                 "resourceType": "GMFont"
-            }
-        },
-        {
+=======
             "Key": "c1f5a6b5-f527-4c5c-92b0-31ce1fad40cc",
             "Value": {
                 "id": "1299db11-f4c5-4718-9b70-d8236926048d",
                 "resourcePath": "sprites\\sprLandedEarly\\sprLandedEarly.yy",
                 "resourceType": "GMSprite"
+>>>>>>> master
             }
         },
         {
@@ -1346,7 +1338,6 @@
         "9b102dde-3278-4a33-a319-f7681f84e7f0",
         "cc2f7ad2-3561-4f4b-8326-db58043bf3af",
         "2747b631-b85d-47b7-8df5-9b07f256a944",
-        "8f2222b8-4004-4164-8c64-a56a0994c889",
         "efe58a26-0150-405c-b813-1e16937177ca",
         "d33af4d9-764a-4fc0-bf34-4cff7a833fc1"
     ],
