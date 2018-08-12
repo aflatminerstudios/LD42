@@ -5,6 +5,7 @@ randomize();
 
 //Setting up global variables
 global.character = noone;
+global.minTime = 2;
 
 //Setting up constants
 #macro PLANET_TARGET_DEPTH_DIFF 1
@@ -13,3 +14,5 @@ global.character = noone;
 #macro GAMETYPE_TARGET 1
 #macro GAMETYPE_BLINDHORSE 2
 #macro GAMETYPE_HORSE 3
+
+
