@@ -29,7 +29,10 @@ if (moving) {
   
   if (scrIsNextModePressed()) {
     angling = false;
-    scrSpawnTarget(self.id);
+    
+    if (objGameInfo.gameType == 1) {
+      scrSpawnTarget(self.id);
+    }
     scrSpawnPlayer(self.id);
   }
 }
