@@ -21,3 +21,4 @@ targetY = 0;
 landingSpeed = 5;
 
 scoreMult = 1.5;
+name = "Alternate";

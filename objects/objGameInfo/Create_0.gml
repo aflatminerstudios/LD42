@@ -12,3 +12,7 @@ pHitY = 0;
 pAdjX = 0;
 pAdjY = 0;
 pTime = 0;
+
+player = noone;
+pScore = 0;
+won = false;
