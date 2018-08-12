@@ -9,3 +9,7 @@ global.character = noone;
 //Setting up constants
 #macro PLANET_TARGET_DEPTH_DIFF 1
 #macro PLATFORM_PLAYER_DEPTH_DIFF 1
+
+#macro GAMETYPE_TARGET 1
+#macro GAMETYPE_BLINDHORSE 2
+#macro GAMETYPE_HORSE 3

@@ -15,9 +15,9 @@ var tempMult = player.scoreMult;
 
 var dist = point_distance(target.x, target.y, xx, yy);
 var steps = dist / target.scoreWidth;
-show_debug_message(string(dist) + " : " + string(target.scoreWidth));
+
 tempPts = tempPts * (1 - (steps / (target.maxSteps + 1)));
-show_debug_message(string(steps) + " , " + string(tempPts));
+
 
 /*
 switch (player.object_index) {

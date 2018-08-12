@@ -3,6 +3,13 @@
 
 event_inherited();
 
+if (orbiting) {
+  with (objPlatform) {
+    instance_destroy(); 
+  }
+  timeOrbiting++;
+}
+
 if (!landed && scrCheckGround(self.id)) {
   scrHitGround(self.id, target); 
 }

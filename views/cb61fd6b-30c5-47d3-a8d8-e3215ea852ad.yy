@@ -6,7 +6,8 @@
     "children": [
         "de5cbdff-c0af-4f7b-a8cf-b6df25b8d27a",
         "8b40ffbc-2a3f-4620-bbf2-6fd00e426151",
-        "0028d565-f470-4fa0-999c-b80a4231d283"
+        "0028d565-f470-4fa0-999c-b80a4231d283",
+        "bb2d5c56-5e7d-4f40-94bc-2f46a97722f3"
     ],
     "filterType": "GMObject",
     "folderName": "Character Select Screen",

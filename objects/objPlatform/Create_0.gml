@@ -16,3 +16,5 @@ topBound = 30;
 bottomBound = 130;
 
 numSprites = 3;
+
+target = noone;
