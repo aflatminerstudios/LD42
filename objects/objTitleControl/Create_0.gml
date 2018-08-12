@@ -4,6 +4,7 @@
 // The target location we are moving to
 viewTarget = "title"; // "title", "credits"
 isScrolling = false;
-durationOfScroll = 1.0*room_speed;
+durationOfScroll = 2.0*room_speed;
 scrollTime = 0;
 
+scrSetTitleScrollPosition(1);

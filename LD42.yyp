@@ -1863,6 +1863,25 @@
             }
         },
         {
+            "Key": "a810d35b-8535-4999-8610-efec92ff0497",
+            "Value": {
+                "id": "f522695a-5734-44ed-b714-6aefc8beb741",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objTitleParallaxForeground\/objTitleParallaxForeground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a88da0c7-a316-4178-ad19-2d193a3cdc39",
             "Value": {
                 "id": "ef46c67c-ceeb-49c1-93df-e46cd2085a39",

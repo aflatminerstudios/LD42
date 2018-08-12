@@ -18,6 +18,7 @@ if(viewTarget != newViewTarget) {
 }
 
 if(self.isScrolling) {
+	// Move the camera
 	if(self.viewTarget == "credits") {
 		var percentFromLeft = afm_scrCurveCubicInOut(0, 1, self.scrollTime/self.durationOfScroll);
 		scrSetTitleScrollPosition(percentFromLeft);
@@ -25,8 +26,14 @@ if(self.isScrolling) {
 		var percentFromLeft = afm_scrCurveCubicInOut(1, 0, self.scrollTime/self.durationOfScroll);
 		scrSetTitleScrollPosition(percentFromLeft);
 	}
+	
+	// Adjust the parallax
+	
+	
+	// Update the scroll time
 	if(self.scrollTime <= 0)
 		self.isScrolling = false;
 	else
 		self.scrollTime--;
+		
 }
