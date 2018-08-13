@@ -10,7 +10,8 @@ if (orbiting) {
     pressedSpecial = true;
     numJumps++;
     jumpTime = 0;
-    boostDir = image_angle + 90;
+    boostDir = image_angle - 180;
+    show_debug_message(boostDir);
   }
   
   if (multijumping) {
