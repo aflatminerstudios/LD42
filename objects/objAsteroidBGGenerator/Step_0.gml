@@ -4,7 +4,7 @@
 
 if(self.extendOnStart) {
 	self.extendOnStart = false;	
-	show_debug_message("Extending astroids");
+
 	// Assume for now we are going left to right -- fix this post-jam -- Post-jam TODO
 	var nextAsteroidOffsetX = x;
 	var nextAsteroidOffsetY = y;
