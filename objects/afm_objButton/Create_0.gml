@@ -10,8 +10,7 @@ pressedSprite = sprite_index; // down state, defaults to object sprite
 unpressedSprite = sprite_index; // normal state, defaults to the object sprite
 
 // Sounds
-//pressedSound = afm_sndButtonPress;
-pressedSound = noone;
+pressedSound = afm_sndButtonPress;
 unpressedSound = noone;
 
 // Scripts
