@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "be0dc1f0-da71-4e4e-abd4-7bfc9b164224",
+            "id": "0ef668f9-f1c3-4de5-ac8c-15f3989431b9",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "7d4e5be6-e7df-4973-b650-68dfb1765b97",
             "compositeImage": {
-                "id": "961b6042-4ffb-43cc-a2af-43b78e10ae10",
+                "id": "023ecc24-a9cf-4c12-88d6-ffb5cbe771ee",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "be0dc1f0-da71-4e4e-abd4-7bfc9b164224",
+                "FrameId": "0ef668f9-f1c3-4de5-ac8c-15f3989431b9",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "87e226d9-2f5a-4ac2-a18d-bc6c3af270b6",
+                    "id": "6780f06a-ff6c-436b-b72a-7304ea641fc3",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "be0dc1f0-da71-4e4e-abd4-7bfc9b164224",
-                    "LayerId": "c3d0f66b-752f-4312-958a-0585c573488d"
+                    "FrameId": "0ef668f9-f1c3-4de5-ac8c-15f3989431b9",
+                    "LayerId": "19bd7f3c-b3a1-4ea1-99ab-77d60c8e8e47"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 600,
     "layers": [
         {
-            "id": "c3d0f66b-752f-4312-958a-0585c573488d",
+            "id": "19bd7f3c-b3a1-4ea1-99ab-77d60c8e8e47",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "7d4e5be6-e7df-4973-b650-68dfb1765b97",
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 4,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -65,6 +65,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 800,
-    "xorig": 0,
-    "yorig": 0
+    "xorig": 400,
+    "yorig": 300
 }

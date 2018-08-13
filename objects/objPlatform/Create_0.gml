@@ -53,3 +53,5 @@ moveButtons[1] = instance_create_depth(2304, 1824, depth, objMoveDownButton);
 moveButtons[2] = instance_create_depth(2208, 1728, depth, objMoveLeftButton);
 moveButtons[3] = instance_create_depth(2400, 1728, depth, objMoveRightButton);
 moveButtons[4] = instance_create_depth(2304, 1728, depth, objLeaveMoveButton);
+
+objGameControl.showMoveMessage = true;

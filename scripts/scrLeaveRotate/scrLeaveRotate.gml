@@ -7,3 +7,5 @@ with (objPlatform) {
   }
   scrSpawnPlayer(self.id);
 }
+
+objGameControl.showRotateMessage = false;

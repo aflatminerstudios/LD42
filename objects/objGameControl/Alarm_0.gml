@@ -3,6 +3,8 @@
 
 showZoomMessage = !showZoomMessage;
 
+
 if (showZoomMessage) {
   alarm[0] = room_speed * 5; 
-}
+} 
+
