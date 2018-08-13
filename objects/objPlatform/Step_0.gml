@@ -18,6 +18,7 @@ if (moving) {
   if (scrIsNextModePressed()) {
     moving = false;
     angling = true;
+    image_speed = 1;
   }
 } else if (angling) {
   if (scrIsDownPressed() && image_angle < maxAngle) {

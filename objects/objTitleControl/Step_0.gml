@@ -3,6 +3,12 @@
 
 if (keyboard_check_pressed(ord("I"))) {
   room_goto(roomInstructions);
+} else if (keyboard_check_pressed(vk_left)) {
+  scrShowCredits(); 
+} else if (keyboard_check_pressed(vk_right)) {
+  scrHideCredits(); 
+} else if (keyboard_check_pressed(vk_anykey)) {
+  scrGoToCharacterSelect();
 }
 
 if(self.viewTarget != self.oldViewTarget) {

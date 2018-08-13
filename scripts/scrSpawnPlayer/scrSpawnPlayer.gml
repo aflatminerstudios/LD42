@@ -5,16 +5,20 @@ var platform = argument0;
 
 var dir = platform.image_angle;
 var sprite = object_get_sprite(global.character);
-//var px = x + lengthdir_x(platform.sprite_width / 2, dir);// - lengthdir_x(sprite_get_width(sprite)/2, dir);
-//var py = y + lengthdir_y(platform.sprite_height / 2, dir - 90);// - lengthdir_y(sprite_get_height(sprite)/2, dir - 90);
-var px = platform.x + lengthdir_x(sprite_get_width(platform.sprite_index) / 2, dir) - lengthdir_x(sprite_get_width(sprite)/4, dir);
-var py = platform.y + lengthdir_y(sprite_get_height(platform.sprite_index) / 2, dir + 90) + lengthdir_y(sprite_get_height(sprite)/4, dir + 90);
 
-show_debug_message(string(dir));
-show_debug_message(sprite_get_height(platform.sprite_index));
-show_debug_message(string(lengthdir_y(sprite_get_height(platform.sprite_index) / 2, dir - 90)) + " - " + string(lengthdir_y(sprite_get_height(sprite)/2, dir - 90)));
+var spriteWidth = sprite_get_width(sprite);
+var spriteHeight = sprite_get_height(sprite);
+var pWidth = sprite_get_width(platform.sprite_index);
+var pHeight = sprite_get_height(platform.sprite_index);
+
+var px = platform.bbox_right - lengthdir_x(spriteWidth / 2, dir) + lengthdir_x(spriteHeight / 2, dir + 90);
+var py = platform.bbox_top + lengthdir_y(spriteHeight / 2, dir + 90) - lengthdir_y(spriteWidth / 2, dir);
+if (dir < 0) {
+  py = platform.bbox_bottom + lengthdir_y(spriteHeight / 2, dir + 90) + lengthdir_y(spriteWidth / 2, dir); 
+}
 
 
+//show_debug_message(string(lengthdir_x(spriteWidth/2, dir)) + " " + string(lengthdir_y(spriteHeight/2, dir + 90)));
 var p = instance_create_depth(px, py, platform.depth - PLATFORM_PLAYER_DEPTH_DIFF, global.character);
 p.platform = platform;
 if (platform.target != noone) {

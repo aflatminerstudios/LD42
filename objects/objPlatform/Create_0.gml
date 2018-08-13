@@ -7,8 +7,8 @@ angling = false;
 moveSpeed = 5;
 angleSpeed = 3;
 
-minAngle = -75;
-maxAngle = 75;
+minAngle = -45;
+maxAngle = 45;
 
 leftBound = 480;
 bottomBound = 130;
@@ -17,7 +17,7 @@ bottomBound = 130;
 numSprites = 3;
 
 target = noone;
-
+image_speed = 0;
 
 
 centerx = room_width / 2;
