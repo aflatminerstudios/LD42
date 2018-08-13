@@ -36,3 +36,4 @@ powerIndex = 0;
 pressedSpecial = false;
 
 rotationSpeed = 5;
+boostDir = 0;

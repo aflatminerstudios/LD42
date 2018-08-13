@@ -4,20 +4,21 @@
 event_inherited();
 
 if (orbiting) {
-
+  
   if (scrIsSpecialPressed() && !multijumping) {
     multijumping = true;
     pressedSpecial = true;
     numJumps++;
     jumpTime = 0;
+    boostDir = image_angle + 90;
   }
   
   if (multijumping) {
     if (jumpTime < multijumpMaxTime) {
       jumpTime += 1;
      
-      var dir = point_direction(orbitObject.x, orbitObject.y, x, y);
-      motion_add(dir, multijumpSpeed);
+      
+      motion_add(boostDir, multijumpSpeed);
     } else {
       multijumping = false;
     }
@@ -43,4 +44,7 @@ if (orbiting) {
   
   
   image_angle += rotationSpeed;
+  if (image_angle > 360) {
+    image_angle -= 360; 
+  }
 }
