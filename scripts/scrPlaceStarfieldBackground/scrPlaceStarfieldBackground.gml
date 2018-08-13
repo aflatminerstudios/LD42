@@ -14,9 +14,10 @@ for(var i = 0; i < starTileArrayLength; i++) {
 	starTile.sprite_index = starTileArray[i];
 }
 
-var starTile = instance_create_layer(0, 0, "StarfieldMiddleGround", objStarTile);
-starTile.sprite_index = sprSpaceCloudBottomLeft;
+var cloudBottomLeft = instance_create_layer(0, 0, "StarfieldMiddleGround", objStarTile);
+cloudBottomLeft.sprite_index = sprSpaceCloudBottomLeft;
+cloudBottomLeft.image_angle = 0;
 // Scale it to be full height
-var newScale = 1.0*room_height/sprite_height;
-starTile.image_xscale = newScale;
-starTile.image_yscale = newScale;
+var cloudBottomNewScale = 1.0*room_height/sprite_height;
+cloudBottomLeft.image_xscale = cloudBottomNewScale;
+cloudBottomLeft.image_yscale = cloudBottomNewScale;

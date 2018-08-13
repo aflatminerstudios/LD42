@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var starfieldStyle = choose("asteroid belt", "just stars");// "nebula"
+var starfieldStyle = choose("nebula", "nebula", "asteroid belt", "just stars");
 
 scrPlaceStarfieldBackground();
 
@@ -11,6 +11,6 @@ if(global.planet == objPlanetDisco || starfieldStyle == "asteroid belt") {
 	else
 		scrBuildAsteroidGeneratorsAtScale(1.0, false);
 } else if(starfieldStyle == "nebula") {
-// run script to place nebula in bg	--  Micha TODO
+	scrPlaceNebulaBackground();
 }
 

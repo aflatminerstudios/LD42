@@ -1,0 +1,3 @@
+/// scrNullScript()
+
+// Does nothing!

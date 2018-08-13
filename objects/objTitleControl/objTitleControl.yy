@@ -5,16 +5,6 @@
     "name": "objTitleControl",
     "eventList": [
         {
-            "id": "696f83cf-14d9-49de-a8cd-52d5edcf0f24",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 53,
-            "eventtype": 6,
-            "m_owner": "ff03cd68-cb37-4b35-98be-0dd35f3d484a"
-        },
-        {
             "id": "edcef7ee-c14e-4ddb-b645-d842e9145409",
             "modelName": "GMEvent",
             "mvc": "1.0",
