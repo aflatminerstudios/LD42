@@ -23,7 +23,7 @@ targetX = 0;
 targetY = 0;
 landingSpeed = 5;
 
-scoreMult = 1.5;
+scoreMult = 1.8;
 name = "Alternate";
 
 idleSprite = sprCadet1Idle;
