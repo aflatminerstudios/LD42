@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "00ac593b-9bb2-44c7-b457-0e17fd7489e4",
+            "Value": {
+                "id": "f871e585-532f-40a3-b2ce-56c51d9f40f4",
+                "resourcePath": "views\\00ac593b-9bb2-44c7-b457-0e17fd7489e4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "00b0022e-e344-4182-9dd0-c6070189406f",
             "Value": {
                 "id": "7056c7bb-123d-4632-abf0-0a804d1bbf57",
@@ -751,6 +759,14 @@
             }
         },
         {
+            "Key": "6707b178-6822-47be-9692-5729474b6bc0",
+            "Value": {
+                "id": "1bf581f4-d9e7-4e78-8301-2ea8aa7cb2dc",
+                "resourcePath": "objects\\objInstructionsControl\\objInstructionsControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6894df3b-1791-45c0-bd28-c37e3e14e92c",
             "Value": {
                 "id": "8120a495-5bc7-4c1f-98e6-c2b8dc28ee67",
@@ -1279,6 +1295,14 @@
             }
         },
         {
+            "Key": "b9ed0f3d-d8f4-4e10-8de4-b7d9e3da0d61",
+            "Value": {
+                "id": "0e281fc6-9b75-4e75-80c1-de9d03a916c3",
+                "resourcePath": "fonts\\fontInstructions\\fontInstructions.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "ba094d7b-bb20-4822-a844-322eb393b0ae",
             "Value": {
                 "id": "8745501f-a078-4ad4-b1d5-87b1a3fed992",
@@ -1652,6 +1676,14 @@
                 "id": "10ccd96c-5cfb-4431-9479-f7c9aedb5877",
                 "resourcePath": "scripts\/scrIsZoomTogglePressed\/scrIsZoomTogglePressed.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e0c42afa-3139-4f84-817e-022e4732b3d0",
+            "Value": {
+                "id": "4e3b68c9-390b-4065-bad6-9ac6a4f815f2",
+                "resourcePath": "rooms\\roomInstructions\\roomInstructions.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
