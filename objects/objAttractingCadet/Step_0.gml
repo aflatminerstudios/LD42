@@ -6,7 +6,7 @@ event_inherited();
 if (orbiting) {
   
   if (scrIsSpecialHeld()) {
-    var dir = point_direction(orbitObject.x, orbitObject.y, x, y);
+    var dir = point_direction(x, y, orbitObject.x, orbitObject.y);  
     motion_add(dir, 3);
     fuelUsed++;
     holdingSpecial = true;

@@ -22,6 +22,14 @@ if (player == "Basic" && won) {
   text = "The dude wearing the funny colors won. He didn't die. So sad.";
 } else if (player == "Alternate" && !won) {
   text = "He crashed! Hooray!";
+} else if (player == "Attract" && won) {
+  text = "He's so attractive! He did it!";
+} else if (player == "Attract" && !won) {
+  text = "He's so attractive! He failed!";
+} else if (player == "BoomBoom" && won) {
+  text = "Boom Boom smash";
+} else if (player == "BoomBoom" && !won) {
+  text = "And again";
 }
 
 draw_text_ext(200, 200, text, -1, 400);
