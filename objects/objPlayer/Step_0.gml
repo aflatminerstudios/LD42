@@ -23,8 +23,24 @@ if (ready) {
   }
 
   if (!landed && scrCheckGround(self.id)) {
-    sprite_index = landingSprite;
-    
+
+		// Add dust particles at the landing point
+		// This logic comes from the "hit target" calculations, needs slight fixes --  Post-jam TODO
+		var hitX = self.x - lengthdir_x(self.sprite_width / 2, self.image_angle);
+		var hitY = self.y - lengthdir_y(self.sprite_height / 2, self.image_angle);
+		var dustDirection = point_direction(objPlanet.x, objPlanet.y, hitX, hitY); // This assumes only one planet in the room! -- Post-jam TODO
+		
+		// This logic is copied from the place target script, needs consolidation --  Post-jam TODO
+		var planet = instance_find(objPlanet, 0);
+		var bboxWidth = planet.bbox_right + 1 - planet.bbox_left;
+		var bboxHeight = planet.bbox_bottom + 1 - planet.bbox_top;
+		var tx = planet.x + lengthdir_x(bboxWidth / 2, dustDirection);// - sprite_get_width(sprTarget)/2;
+		var ty = planet.y + lengthdir_y(bboxWidth / 2, dustDirection);// - sprite_get_height(sprTarget)/2;
+		
+		scrCreateDustAtXYAndDirection(tx, ty, dustDirection, self.depth-1);
+
+		// Update sprite
+		sprite_index = landingSprite;
   }
 
   if (!orbiting && !landed) {

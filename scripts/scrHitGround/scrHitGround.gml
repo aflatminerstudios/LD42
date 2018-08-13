@@ -5,14 +5,6 @@
 var player = argument0;
 var target = argument1;
 
-// Add dust particles
-show_debug_message("Player is at (" + string(player.x) +", " + string(player.y) + ")");
-var hitX = player.x - lengthdir_x(player.sprite_width / 2, player.image_angle);
-var hitY = player.y - lengthdir_y(player.sprite_height / 2, player.image_angle);
-var dustDirection = point_direction(objPlanet.x, objPlanet.y, hitX, hitY); // This assume only one planet in the room! -- Post-jam TODO
-scrCreateDustAtXYAndDirection(hitX, hitY, dustDirection); // Update these to proper values --  Micha TODO
-
-
 var points = 0;
 var hit = false;
 
