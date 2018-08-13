@@ -22,9 +22,9 @@ if (objGameInfo.gameType == GAMETYPE_TARGET || (objGameInfo.gameType == GAMETYPE
   objGameInfo.turn = 2; 
   objGameInfo.pHitX = player.x;
   objGameInfo.pHitY = player.y;
-  var dir = point_direction(player.x, player.y, player.orbitObject.x, player.orbigObject.y);
-  objGameInfo.pAdjX = player.x - lengthdir_x(player.sprite_width / 2, dir);
-  objGameInfo.pAdjY = player.y - lengthdir_y(player.sprite_height / 2, dir);
+  
+  objGameInfo.pAdjX = player.x - lengthdir_x(player.sprite_width / 2, player.image_angle);
+  objGameInfo.pAdjY = player.y - lengthdir_y(player.sprite_height / 2, player.image_angle);
   objGameInfo.pTime = player.timeOrbiting;
   objGameInfo.alarm[0] = room_speed / 2;
 } else if (objGameInfo.turn == 1) {

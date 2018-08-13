@@ -8,6 +8,3 @@ buttons[1] = scrCreateSelectButton(512, 325, objAlternateCadet, playButton);
 buttons[2] = scrCreateSelectButton(512, 400, objAttractingCadet, playButton);
 buttons[3] = scrCreateSelectButton(512, 475, objBoomBoomCadet, playButton);
 buttons[4] = scrCreateSelectButton(512, 550, objGoatCadet, playButton);
-with (buttons[1]) {
- image_blend = make_color_rgb(244, 83, 66) 
-}

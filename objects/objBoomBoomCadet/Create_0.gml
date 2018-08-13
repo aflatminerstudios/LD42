@@ -20,10 +20,10 @@ landingSpeed = 5;
 scoreMult = 1.4;
 name = "BoomBoom";
 
-idleSprite = sprCadet1Idle;
-runSprite = sprCadet1Run;
-flySprite = sprCadet1Fly;
-landingSprite = sprCadet1Landing;
+idleSprite = sprBoomIdle;
+runSprite = sprBoomRun;
+flySprite = sprBoomFly;
+landingSprite = sprBoomLanding;
 powerSprite = sprBoomBoom;
 
 powerIndex = 0;
