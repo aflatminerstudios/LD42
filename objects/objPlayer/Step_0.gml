@@ -39,6 +39,9 @@ if (ready) {
 		var ty = planet.y + lengthdir_y(bboxWidth / 2, dustDirection);// - sprite_get_height(sprTarget)/2;
 		
 		scrCreateDustAtXYAndDirection(tx, ty, dustDirection, self.depth-1);
+		if(audio_is_playing(sndPlatformRun))
+			audio_stop_sound(sndPlatformRun);
+		audio_play_sound(sndPlanetLand, 0, false);
 
 		// Update sprite
 		sprite_index = landingSprite;
@@ -50,13 +53,14 @@ if (ready) {
     //If not orbiting, accept input
     if (scrIsRunPressed() && !running) {
       running = true;
+			audio_play_sound(sndPlatformRun, 0, false);
     } else if (scrIsJumpPressed() && running) {
       startSpeed = speed;
       jumping = true;
       running = false;
       objGameControl.showRJMessage = false;
       objGameControl.alarm[1] = -1;
-      
+      audio_play_sound(sndPlatformJump, 0, false);
     } 
     if (running) {
       
