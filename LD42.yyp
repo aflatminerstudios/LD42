@@ -1399,6 +1399,14 @@
             }
         },
         {
+            "Key": "eab083d3-332e-4b95-943e-b09a1f18904e",
+            "Value": {
+                "id": "ca2f8bfe-d73b-4343-922a-f31c210e43b5",
+                "resourcePath": "objects\\objBoomBoomCadet\\objBoomBoomCadet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "eaf081d0-42c1-4055-b2b6-6748b018e33d",
             "Value": {
                 "id": "a7b807ee-9218-486e-9082-49cfbcc20036",

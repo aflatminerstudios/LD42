@@ -26,6 +26,10 @@ if (player == "Basic" && won) {
   text = "He's so attractive! He did it!";
 } else if (player == "Attract" && !won) {
   text = "He's so attractive! He failed!";
+} else if (player == "BoomBoom" && won) {
+  text = "Boom Boom smash";
+} else if (player == "BoomBoom" && !won) {
+  text = "And again";
 }
 
 draw_text_ext(200, 200, text, -1, 400);
