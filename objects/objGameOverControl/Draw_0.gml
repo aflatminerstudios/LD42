@@ -30,6 +30,10 @@ if (player == "Basic" && won) {
   text = "Boom Boom smash";
 } else if (player == "BoomBoom" && !won) {
   text = "And again";
+} else if (player == "Goat" && won) {
+  text = "So easy a goat can do it!";
+} else if (player == "Goat" && !won) {
+  text = "Why is a goat trying to jump onto the planet?";
 }
 
 draw_text_ext(200, 200, text, -1, 400);

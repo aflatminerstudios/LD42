@@ -3,7 +3,9 @@
 
 event_inherited();
 
-maxSpeed = 20;
+maxSpeed = 30;
+accel = 0.85;
+
 numJumps = 0;
 maxJumps = 4;
 multijumping = false;
@@ -20,10 +22,10 @@ landingSpeed = 5;
 scoreMult = 1.4;
 name = "BoomBoom";
 
-idleSprite = sprCadet1Idle;
-runSprite = sprCadet1Run;
-flySprite = sprCadet1Fly;
-landingSprite = sprCadet1Landing;
+idleSprite = sprBoomIdle;
+runSprite = sprBoomRun;
+flySprite = sprBoomFly;
+landingSprite = sprBoomLanding;
 powerSprite = sprBoomBoom;
 
 powerIndex = 0;

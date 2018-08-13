@@ -7,7 +7,8 @@
         "77aa11bb-ae24-436c-90bb-4043a3dac251",
         "ddbb47e6-4020-4e69-ab4f-899e9e34e00b",
         "9c3db8a7-06c9-45f6-ba28-887cf3e46c4d",
-        "16afd6f0-c08d-4f93-8608-be0f5c962b36"
+        "16afd6f0-c08d-4f93-8608-be0f5c962b36",
+        "064bf646-d338-45f8-b8e9-7a7bbdd0ee81"
     ],
     "filterType": "GMSprite",
     "folderName": "Powers",
