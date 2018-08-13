@@ -5,8 +5,7 @@ var dustY = argument1;
 var dustDirection = argument2;
 var dustDepth = argument3;
 
-show_debug_message("Creating dust at (" + string(dustX) +", " + string(dustY) + ") at " + string(dustDirection) + " degrees");
-
+//show_debug_message("Creating dust at (" + string(dustX) +", " + string(dustY) + ") at " + string(dustDirection) + " degrees");
 
 // Create dust particles
 var leftDust1 = instance_create_depth(dustX, dustY, dustDepth, objDustSwirl);
