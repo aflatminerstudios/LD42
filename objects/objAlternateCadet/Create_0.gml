@@ -8,6 +8,9 @@ numJumps = 0;
 maxJumps = 4;
 multijumping = false;
 
+jumpMaxTime = 20;
+jumpSpeed = 0.07;
+
 multijumpSpeed = 0.7;
 multijumpMaxTime = 15;
 
@@ -20,7 +23,7 @@ targetX = 0;
 targetY = 0;
 landingSpeed = 5;
 
-scoreMult = 1.5;
+scoreMult = 1.8;
 name = "Alternate";
 
 idleSprite = sprCadet1Idle;

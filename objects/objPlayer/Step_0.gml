@@ -44,7 +44,7 @@ if (ready) {
   }
 
   if (!orbiting && !landed) {
-  
+
     //If not orbiting, accept input
     if (scrIsRunPressed() && !running) {
       running = true;

@@ -17,7 +17,7 @@ targetX = 0;
 targetY = 0;
 landingSpeed = 5;
 
-scoreMult = 1.5;
+scoreMult = 1.4;
 name = "BoomBoom";
 
 idleSprite = sprCadet1Idle;

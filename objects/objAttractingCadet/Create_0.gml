@@ -3,18 +3,19 @@
 
 event_inherited();
 
-maxSpeed = 20;
+maxSpeed = 25;
+accel = 1.5;
 
-scoreMult = 1.75;
+scoreMult = 1.5;
 
 fuelUsed = 0;
 
 name = "Attract";
 
-idleSprite = sprCadet1Idle;
-runSprite = sprCadet1Run;
-flySprite = sprCadet1Fly;
-landingSprite = sprCadet1Landing;
+idleSprite = sprAttractIdle;
+runSprite = sprAttractRun;
+flySprite = sprAttractFly;
+landingSprite = sprAttractLanding;
 powerSprite = sprAttract;
 
 holdingSpecial = false;
