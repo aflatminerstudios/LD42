@@ -1483,6 +1483,25 @@
             }
         },
         {
+            "Key": "5ba7a09e-79d1-4819-98fe-2d44b4219f9f",
+            "Value": {
+                "id": "f59b1eae-bacc-486d-a56e-361910a4b8a9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSpaceWitch\/sprSpaceWitch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5bd1f026-8949-44e9-a3bc-13c2e136d1f1",
             "Value": {
                 "id": "7962e231-4504-4787-989f-70c02d2f2d19",
