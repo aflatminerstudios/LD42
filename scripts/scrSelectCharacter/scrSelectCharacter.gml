@@ -2,19 +2,20 @@
 /// @param whichButton the character select button that was pushed
 
 with (objCharacterSelectControl) {
-  
+  selectedChar = true;
   var whichButton = argument0;
   for (var i = 0; i < array_length_1d(buttons); ++i) {
     
-    if (buttons[i] != whichButton) {      
-      with (buttons[i]) {      
-        image_blend = make_color_rgb(255, 255, 255);
+    if (self.buttons[i] != whichButton) {      
+      with (self.buttons[i]) {      
+        self.selected = false;
       }
     } else {
-      with (buttons[i]) {        
-        playButton.selected = true;
-        playButton.selectedChar = whichCharacter;    
-        image_blend = make_color_rgb(0, 0, 0);
+      with (self.buttons[i]) {        
+        self.selected = true;
+        
+        global.character = whichButton.whichCharacter;    
+        
       }
     }    
   } 

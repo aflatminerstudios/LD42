@@ -16,9 +16,8 @@ if (moving) {
   }
   
   if (scrIsNextModePressed()) {
-    moving = false;
-    angling = true;
-    image_speed = 1;
+    scrLeaveMove();
+
   }
 } else if (angling) {
   if (scrIsDownPressed() && image_angle < maxAngle) {
@@ -29,8 +28,7 @@ if (moving) {
   }
   
   if (scrIsNextModePressed()) {
-    angling = false;
-    
-    scrSpawnPlayer(self.id);
+    scrLeaveRotate();
+
   }
 }

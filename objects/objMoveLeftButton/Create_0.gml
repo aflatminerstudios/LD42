@@ -18,4 +18,4 @@ useAutoPressAnimation = true;
 // This will run when the button is being held down
 pressedScript = scrMovePlatformLeft; // Your button click script goes here
 
-image_angle = 0;
+image_angle = 180;

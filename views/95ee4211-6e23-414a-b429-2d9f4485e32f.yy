@@ -9,7 +9,9 @@
         "a4cf72fc-ebed-41f1-adbd-31df974b4459",
         "04701919-8855-4254-a12f-2b0919c07c90",
         "18a183ac-b90a-4331-b9d3-58c913ccaf8c",
-        "3bd9991c-7284-4fb2-ae7e-fb518db112ba"
+        "3bd9991c-7284-4fb2-ae7e-fb518db112ba",
+        "e8c8f054-67c4-4c4b-9705-edfc04846c2c",
+        "95cd0e57-4e51-4767-8fef-df4561258cb8"
     ],
     "filterType": "GMObject",
     "folderName": "InGame Buttons",

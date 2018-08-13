@@ -7,7 +7,7 @@ var xx = player.x;
 var yy = player.y;
 var time = player.timeOrbiting;
 
-var basePts = 1000;
+var basePts = 1500;
 var tempPts = basePts;
 var tempMult = player.scoreMult;
 var hit = false;

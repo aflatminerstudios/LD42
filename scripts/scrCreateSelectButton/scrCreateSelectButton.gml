@@ -2,17 +2,18 @@
 /// @param xx x coordinate
 /// @param yy y coordinate
 /// @param character which character this button represents
-/// @param playButton the ID of the play button in the room
+/// @param whichTwoot the ID of the character
+/// @param flySprite  the sprite for the character
 
 var xx = argument0;
 var yy = argument1;
 var character = argument2;
-var playButton = argument3;
+var whichTwoot = argument3;
+var flySprite = argument4;
 
 var button = instance_create_depth(xx, yy, 0, objSelectCharacter);
 button.whichCharacter = character;
-button.playButton = playButton;
-button.sprite_index = object_get_sprite(character);
-button.image_speed = 0;
+button.whichTwoot = whichTwoot;
+button.sprite_index = flySprite;
 
 return button;
