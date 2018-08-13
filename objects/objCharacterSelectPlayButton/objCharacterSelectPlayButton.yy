@@ -2,7 +2,7 @@
     "id": "0028d565-f470-4fa0-999c-b80a4231d283",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objPlayButton",
+    "name": "objCharacterSelectPlayButton",
     "eventList": [
         {
             "id": "1d73a41e-71ea-4ad8-95e5-fa7dc1fdde0a",
@@ -12,16 +12,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "0028d565-f470-4fa0-999c-b80a4231d283"
-        },
-        {
-            "id": "51ad1c4f-4bb2-4e7f-8e0a-dc686663ebb5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
             "m_owner": "0028d565-f470-4fa0-999c-b80a4231d283"
         },
         {
@@ -37,7 +27,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "9ad85b32-7706-4861-9317-47cbe08f7c1c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "990c76bc-30d0-4d9e-b08e-563795ce80a0",
+    "spriteId": "01a1e5df-54e4-4d3f-b534-421698759b4a",
     "visible": true
 }

@@ -53,7 +53,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/objPlayButton\/objPlayButton.yy",
+                "resourcePath": "objects\/objCharacterSelectPlayButton\/objCharacterSelectPlayButton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -777,6 +777,25 @@
                 ],
                 "resourcePath": "sprites\/sprStarsSmall01\/sprStarsSmall01.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1e02f9d9-d594-4965-ab2f-95f575cd48bc",
+            "Value": {
+                "id": "07db2f06-9514-4e3e-bd13-c437a4247e21",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrCharacterSelectPlayButtonPressed\/scrCharacterSelectPlayButtonPressed.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -4595,6 +4614,7 @@
         "30dabe51-77c9-4461-8fe2-5599751a8061",
         "22b847c2-f90a-4270-9f5d-faa99fde67dd",
         "594f7c0a-94dc-42b8-ae00-e3bf925ebf7d",
+        "1e02f9d9-d594-4965-ab2f-95f575cd48bc",
         "cdd75c62-d64b-4436-bc08-97f679daaaa4",
         "8a9409d6-4d20-49ff-80e7-4b3f829132af",
         "d3ce3be8-9b14-42d2-ab60-d94e129a40ae",
