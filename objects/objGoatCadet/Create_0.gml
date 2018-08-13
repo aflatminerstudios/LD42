@@ -3,7 +3,9 @@
 
 event_inherited();
 
-maxSpeed = 20;
+maxSpeed = 25;
+accel = 2;
+
 numJumps = 0;
 maxJumps = 4;
 multijumping = false;
@@ -21,7 +23,7 @@ targetX = 0;
 targetY = 0;
 landingSpeed = 5;
 
-scoreMult = 1.8;
+scoreMult = 2;
 name = "Goat";
 
 idleSprite = sprGoatIdle;

@@ -3,7 +3,9 @@
 
 event_inherited();
 
-maxSpeed = 20;
+maxSpeed = 30;
+accel = 0.85;
+
 numJumps = 0;
 maxJumps = 4;
 multijumping = false;
