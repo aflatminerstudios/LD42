@@ -1,33 +1,23 @@
 {
-    "id": "ff03cd68-cb37-4b35-98be-0dd35f3d484a",
+    "id": "e3b41252-d5a2-4d33-bc22-ffc2de7eb7b0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objTitleControl",
+    "name": "afm_objExampleRadioButton",
     "eventList": [
         {
-            "id": "edcef7ee-c14e-4ddb-b645-d842e9145409",
+            "id": "658bf68b-d78e-4193-9b9a-4c1fe09aedec",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ff03cd68-cb37-4b35-98be-0dd35f3d484a"
-        },
-        {
-            "id": "df06f932-7152-46c7-8794-db1e7ece1375",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "ff03cd68-cb37-4b35-98be-0dd35f3d484a"
+            "m_owner": "e3b41252-d5a2-4d33-bc22-ffc2de7eb7b0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "c1316475-f323-470e-abde-26ad6e068b0a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "05a65d97-abb2-4a59-8049-eba366d44a4e",
     "visible": true
 }

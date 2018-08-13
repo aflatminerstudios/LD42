@@ -1,18 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-var newViewTarget = viewTarget;
+/*
+// Remove me --  Micha TODO
 if(keyboard_check_pressed(vk_left)) {
 	// Scroll the title over to credits
-	newViewTarget = "credits"
+	self.viewTarget = "credits"
 } else if(keyboard_check_pressed(vk_right)) {
 	// Scroll the title over to credits
-	newViewTarget = "title"
+	self.viewTarget = "title"
 }
+*/
 
-if(viewTarget != newViewTarget) {
-	self.viewTarget = newViewTarget;
+if(self.viewTarget != self.oldViewTarget) {
+	self.oldViewTarget = self.viewTarget;
 	self.isScrolling = true;
 	self.scrollTime = self.durationOfScroll;
 }
