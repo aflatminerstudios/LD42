@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "76c33b27-a071-40c4-8f23-2f2e3846e49f",
+            "Value": {
+                "id": "508e14e4-bfc1-4543-afdb-d4c49c6ff320",
+                "resourcePath": "sprites\\sprAttractIdle\\sprAttractIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "76c9c65f-8414-4cb0-8b9d-2ccb57923fbd",
             "Value": {
                 "id": "3195008c-616c-4bd5-b95f-bc7e28602422",
