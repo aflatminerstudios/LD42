@@ -999,6 +999,14 @@
             }
         },
         {
+            "Key": "a8f816b4-53f5-42ce-8d94-2c5727d40b8f",
+            "Value": {
+                "id": "9ec12213-413c-4e44-b15c-8019ed0a6f47",
+                "resourcePath": "objects\\objGoatCadet\\objGoatCadet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "1b460b26-0a43-4822-b1f2-c4977b93d497",

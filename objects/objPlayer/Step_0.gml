@@ -24,7 +24,7 @@ if (ready) {
 
   if (!landed && scrCheckGround(self.id)) {
     sprite_index = landingSprite;
-    
+    orbiting = false;
   }
 
   if (!orbiting && !landed) {
