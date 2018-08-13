@@ -5,7 +5,7 @@ if (moving) {
   if (scrIsLeftPressed() && (x - sprite_width / 2 > leftBound)) {
     x -= moveSpeed; 
   }
-  if (scrIsRightPressed() && (x + sprite_width / 2 < rightBound)) {
+  if (scrIsRightPressed() && (x + sprite_width / 2 < rightBound)) {    
     x += moveSpeed; 
   }
   if (scrIsUpPressed() && (y - sprite_height / 2 > topBound)) {
@@ -29,7 +29,7 @@ if (moving) {
   
   if (scrIsNextModePressed()) {
     angling = false;
-    scrSpawnTarget(self.id);
+    
     scrSpawnPlayer(self.id);
   }
 }

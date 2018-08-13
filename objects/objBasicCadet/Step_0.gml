@@ -4,14 +4,17 @@
 event_inherited();
 
 if (orbiting) {
-  if (scrIsLandHeld()) {
-    var dir = point_direction(x, y, orbitObject.x, orbitObject.y);
-    motion_add(dir, 3);
-  }
+  
   if (scrIsSpecialHeld()) {
-     var dir = point_direction(orbitObject.x, orbitObject.y, x, y);
+    var dir = point_direction(orbitObject.x, orbitObject.y, x, y);
     motion_add(dir, 3);
+    fuelUsed++;
+    holdingSpecial = true;
+    specialCount++;
+  } else {    
+    specialCount = 0;
+    holdingSpecial = false; 
   }
   
-  image_angle = direction-90;
+  image_angle = point_direction(x, y, orbitObject.x, orbitObject.y) + 90;
 }

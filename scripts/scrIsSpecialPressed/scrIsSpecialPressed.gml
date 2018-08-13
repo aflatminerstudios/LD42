@@ -1,1 +1,1 @@
-return keyboard_check_pressed(ord("Z")) || keyboard_check_pressed(vk_shift);
+return keyboard_check_pressed(ord("E")) || keyboard_check_pressed(vk_space);

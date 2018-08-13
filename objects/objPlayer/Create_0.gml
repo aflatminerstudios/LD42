@@ -9,13 +9,14 @@ running = false;
 orbiting = false;
 hitPForm = false;
 landed = false;
+ready = false; //gets set in alarm 0, activated incamera manager
 
 //Objects to interact with
 orbitObject = instance_find(objPlanet, 0);
 platform = instance_find(objPlatform, 0);
 target = noone;
 
-//Start out standing still and falling
+//Start out standing still and aimed with the platform
 speed = 0;
 direction = platform.image_angle + 180;
 
@@ -33,3 +34,18 @@ jumpTime = 0;
 jumpMaxTime = 15;
 maxJumpSpeed = -5;
 startSpeed = 0;
+
+//For scoring
+scoreMult = 1;
+
+timeOrbiting = 0;
+name = "Noone";
+
+//Sprite variables. by default using cadet 1
+idleSprite = sprCadet1Idle;
+runSprite = sprCadet1Run;
+flySprite = sprCadet1Fly;
+landingSprite = sprCadet1Landing;
+powerSprite = sprJetpack;
+    
+image_angle = direction + 180;
