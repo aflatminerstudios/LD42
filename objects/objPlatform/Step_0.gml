@@ -3,16 +3,16 @@
 
 if (moving) {
   if (scrIsLeftPressed() && (x - sprite_width / 2 > leftBound)) {
-    x -= moveSpeed; 
+    scrMovePlatformLeft();
   }
   if (scrIsRightPressed() && (x + sprite_width / 2 < rightBound)) {    
-    x += moveSpeed; 
+     scrMovePlatformRight();
   }
   if (scrIsUpPressed() && (y - sprite_height / 2 > topBound)) {
-    y -= moveSpeed; 
+    scrMovePlatformUp(); 
   }
   if (scrIsDownPressed() && (y + sprite_height / 2 < bottomBound)) {
-    y += moveSpeed; 
+    scrMovePlatformDown();
   }
   
   if (scrIsNextModePressed()) {
@@ -22,10 +22,10 @@ if (moving) {
   }
 } else if (angling) {
   if (scrIsDownPressed() && image_angle < maxAngle) {
-    image_angle += angleSpeed; 
+    scrRotatePlatformDown();
   }
   if (scrIsUpPressed() && image_angle > minAngle) {
-    image_angle -= angleSpeed; 
+    scrRotatePlatformUp();
   }
   
   if (scrIsNextModePressed()) {

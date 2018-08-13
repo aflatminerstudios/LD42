@@ -1,0 +1,3 @@
+with (objPlatform) {
+  x -= moveSpeed; 
+}
