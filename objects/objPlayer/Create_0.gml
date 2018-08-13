@@ -16,7 +16,7 @@ orbitObject = instance_find(objPlanet, 0);
 platform = instance_find(objPlatform, 0);
 target = noone;
 
-//Start out standing still and falling
+//Start out standing still and aimed with the platform
 speed = 0;
 direction = platform.image_angle + 180;
 
@@ -47,4 +47,5 @@ runSprite = sprCadet1Run;
 flySprite = sprCadet1Fly;
 landingSprite = sprCadet1Landing;
 powerSprite = sprJetpack;
-
+    
+image_angle = direction + 180;
