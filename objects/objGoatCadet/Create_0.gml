@@ -3,7 +3,7 @@
 
 event_inherited();
 
-maxSpeed = 25;
+maxSpeed = 20;
 accel = 2;
 
 numJumps = 0;
@@ -30,7 +30,7 @@ idleSprite = sprGoatIdle;
 runSprite = sprGoatRun;
 flySprite = sprGoatFly;
 landingSprite = sprGoatLanding;
-powerSprite = sprBoost;
+powerSprite = sprToot;
 
 powerIndex = 0;
 pressedSpecial = false;

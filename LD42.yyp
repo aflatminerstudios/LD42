@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "064bf646-d338-45f8-b8e9-7a7bbdd0ee81",
+            "Value": {
+                "id": "55a7f76f-0165-458a-92a5-56c995f5a236",
+                "resourcePath": "sprites\\sprToot\\sprToot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08ed603c-b6f0-48e2-b778-88936f03378a",
             "Value": {
                 "id": "226c1450-0853-427b-ac08-4ea8d2ecaea1",
