@@ -54,6 +54,9 @@ if (ready) {
       startSpeed = speed;
       jumping = true;
       running = false;
+      objGameControl.showRJMessage = false;
+      objGameControl.alarm[1] = -1;
+      
     } 
     if (running) {
       
@@ -67,6 +70,7 @@ if (ready) {
         running = false;
         if (!jumping) {
           orbiting = true;
+          objGameControl.showSpecialMessage = true;
         }
       }
     }
@@ -79,6 +83,7 @@ if (ready) {
       } else {
         orbiting = true;
         jumping = false;
+        objGameControl.showSpecialMessage = true;
       }
     } 
 

@@ -25,4 +25,5 @@ if (floor(newWidth) != targetWidth || floor(newHeight) != targetHeight) {
   ready = true;
   player.alarm[0] = 1;
   objGameControl.alarm[0] = 1;  
+  objGameControl.alarm[1] = 1;  
 }

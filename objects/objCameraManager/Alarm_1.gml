@@ -23,3 +23,5 @@ if (round(newWidth) != targetWidth || round(newHeight) != targetHeight) {
   camera_set_view_size(view_camera[0], targetWidth, targetHeight);  
   ready = true;
 }
+
+objGameControl.showZoomMessage = false

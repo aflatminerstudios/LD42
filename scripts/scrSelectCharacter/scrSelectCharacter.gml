@@ -19,4 +19,7 @@ with (objCharacterSelectControl) {
       }
     }    
   } 
+  if (objCharacterSelectControl.selectedMode) {
+    scrStartMainGame();
+  }
 }

@@ -11,6 +11,6 @@ with (objPlatform) {
   rotButtons[1] = instance_create_depth(2304, 1824, depth, objRotateDownButton);
   rotButtons[2] = instance_create_depth(2304, 1728, depth, objLeaveRotateButton);
 }
-
+objGameControl.alarm[3] = -1;
 objGameControl.showMoveMessage = false;
 objGameControl.showRotateMessage = true;
