@@ -26,8 +26,9 @@ if (ready) {
 
 		// Add dust particles at the landing point
 		// This logic comes from the "hit target" calculations, needs slight fixes --  Post-jam TODO
-		var hitX = self.x - lengthdir_x(self.sprite_width / 2, self.image_angle);
-		var hitY = self.y - lengthdir_y(self.sprite_height / 2, self.image_angle);
+    var hitDir = point_direction(x, y, orbitObject.x, orbitObject.y);
+		var hitX = self.x - lengthdir_x(self.sprite_width / 2, hitDir);
+		var hitY = self.y - lengthdir_y(self.sprite_height / 2, hitDir);
 		var dustDirection = point_direction(objPlanet.x, objPlanet.y, hitX, hitY); // This assumes only one planet in the room! -- Post-jam TODO
 		
 		// This logic is copied from the place target script, needs consolidation --  Post-jam TODO
