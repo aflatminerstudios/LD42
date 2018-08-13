@@ -3,9 +3,9 @@
 
 if (objGameInfo.gameType == GAMETYPE_HORSE || objGameInfo.gameType == GAMETYPE_BLINDHORSE) {
 
-  if (landedEarly) {
-    draw_sprite(sprLandedEarly, 0, 400, 100);
-  } else if (enoughTime) {
-    draw_sprite(sprLandNow, 0, 50, 50);
+  if (!enoughTime) {
+    draw_sprite(sprLandedEarly, 0, 75, 75);
+  } else {
+    draw_sprite(sprLandNow, 0, 75, 75);
   }
 }
