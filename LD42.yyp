@@ -1445,6 +1445,25 @@
             }
         },
         {
+            "Key": "5584a293-6b69-4407-98d5-3e6db775ca60",
+            "Value": {
+                "id": "902104ba-fc09-4d2d-8ddc-1123b209beb4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objSpaceJunkSatellite\/objSpaceJunkSatellite.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "594f7c0a-94dc-42b8-ae00-e3bf925ebf7d",
             "Value": {
                 "id": "600cffdd-dc65-4ef6-b6fd-c0489a4587e9",
@@ -1669,25 +1688,6 @@
                     "default"
                 ],
                 "resourcePath": "views\/65b337d4-5d37-4cec-9260-d90b50d1f015.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "6894df3b-1791-45c0-bd28-c37e3e14e92c",
-            "Value": {
-                "id": "8120a495-5bc7-4c1f-98e6-c2b8dc28ee67",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "views\/6894df3b-1791-45c0-bd28-c37e3e14e92c.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2642,6 +2642,25 @@
             }
         },
         {
+            "Key": "a81e3c20-4aea-4b55-b5ed-898f7901086e",
+            "Value": {
+                "id": "dd4f1c30-f269-445f-b3fc-76e7c05e4699",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objSpaceJunkSonia\/objSpaceJunkSonia.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a88da0c7-a316-4178-ad19-2d193a3cdc39",
             "Value": {
                 "id": "ef46c67c-ceeb-49c1-93df-e46cd2085a39",
@@ -2677,6 +2696,25 @@
                 ],
                 "resourcePath": "sprites\/sprSonia\/sprSonia.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a8c31f66-0f6a-4cc5-8a1c-b291344efdda",
+            "Value": {
+                "id": "22ae1f6c-e0b5-4400-afcc-00242b85f5f4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objSpaceJunk\/objSpaceJunk.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3437,6 +3475,25 @@
                 ],
                 "resourcePath": "rooms\/roomGameOver\/roomGameOver.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d0442674-cce0-44ba-97d8-8efb616d76ac",
+            "Value": {
+                "id": "7817f899-3b0b-4a49-8154-f9e6ba2dc319",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objSpaceJunkAsteroid\/objSpaceJunkAsteroid.yy",
+                "resourceType": "GMObject"
             }
         },
         {
