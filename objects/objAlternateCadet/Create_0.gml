@@ -16,20 +16,18 @@ multijumpMaxTime = 15;
 
 landing = false;
 
-//Remove this when we get new sprites
-image_blend = make_color_rgb(244, 83, 66)
 
 targetX = 0;
 targetY = 0;
 landingSpeed = 5;
 
-scoreMult = 1.5;
+scoreMult = 1.8;
 name = "Alternate";
 
-idleSprite = sprCadet1Idle;
-runSprite = sprCadet1Run;
-flySprite = sprCadet1Fly;
-landingSprite = sprCadet1Landing;
+idleSprite = sprBoostIdle;
+runSprite = sprBoostRun;
+flySprite = sprBoostFly;
+landingSprite = sprBoostLanding;
 powerSprite = sprBoost;
 
 powerIndex = 0;

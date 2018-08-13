@@ -9,6 +9,8 @@ if(keyboard_check_pressed(vk_left)) {
 } else if(keyboard_check_pressed(vk_right)) {
 	// Scroll the title over to credits
 	newViewTarget = "title"
+} else if (keyboard_check_pressed(ord("I"))) {
+  room_goto(roomInstructions);
 }
 
 if(viewTarget != newViewTarget) {

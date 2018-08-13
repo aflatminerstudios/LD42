@@ -1,1 +1,1 @@
-return keyboard_check(vk_space) || keyboard_check(ord("Q"));
+return keyboard_check(vk_space) || keyboard_check(ord("Q")) || mouse_check_button(mb_left);

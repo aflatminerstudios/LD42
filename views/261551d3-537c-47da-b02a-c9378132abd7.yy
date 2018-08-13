@@ -15,7 +15,10 @@
         "ced1f111-9568-4dbb-a03d-56bf57aa80d1",
         "45aca280-9883-46de-b611-150872d3d3c4",
         "a7a47beb-5d2c-4622-8ded-47918816af22",
-        "7ba9ba7e-e29d-4a68-9b73-e4fa0394287a"
+        "51ba5757-10c5-430c-b2c5-89855175d4c4",
+        "2982ef26-75e0-480a-8021-ee6d146c07e3",
+        "7ba9ba7e-e29d-4a68-9b73-e4fa0394287a",
+        "ac9c49b4-7fc7-4975-9aa5-d56948755af6"
     ],
     "filterType": "GMSprite",
     "folderName": "Starfield",

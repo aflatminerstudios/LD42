@@ -22,6 +22,7 @@ if (objGameInfo.gameType == GAMETYPE_TARGET || (objGameInfo.gameType == GAMETYPE
   objGameInfo.turn = 2; 
   objGameInfo.pHitX = player.x;
   objGameInfo.pHitY = player.y;
+  
   objGameInfo.pAdjX = player.x - lengthdir_x(player.sprite_width / 2, player.image_angle);
   objGameInfo.pAdjY = player.y - lengthdir_y(player.sprite_height / 2, player.image_angle);
   objGameInfo.pTime = player.timeOrbiting;
