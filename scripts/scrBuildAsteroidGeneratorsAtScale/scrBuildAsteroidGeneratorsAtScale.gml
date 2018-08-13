@@ -7,10 +7,13 @@ if(instancePercentage <= 0)
 var scale = argument0;
 var isRainbow = argument1;
 
-var middleBackBelt = instance_create_layer(-25, 55, "StarfieldBG", objAsteroidBGGenerator);
-var topBelt = instance_create_layer(-20, 35, "StarfieldBG", objAsteroidBGGenerator);
-var bottomBelt = instance_create_layer(-28, 82, "StarfieldBG", objAsteroidBGGenerator);
-var middleFrontBelt = instance_create_layer(-25, 60, "StarfieldBG", objAsteroidBGGenerator);
+var generatorX = -25;
+var generatorY = 450;
+
+var middleBackBelt = instance_create_layer(generatorX, generatorY-5, "StarfieldBG", objAsteroidBGGenerator);
+var topBelt = instance_create_layer(generatorX+5, generatorY-25, "StarfieldBG", objAsteroidBGGenerator);
+var bottomBelt = instance_create_layer(generatorX-3, generatorY+22, "StarfieldBG", objAsteroidBGGenerator);
+var middleFrontBelt = instance_create_layer(generatorX, generatorY, "StarfieldBG", objAsteroidBGGenerator);
 
 middleBackBelt.asteroidMinimumCooldown *= 1.0/instancePercentage;
 middleBackBelt.asteroidMaximumCooldown *= 1.0/instancePercentage;
