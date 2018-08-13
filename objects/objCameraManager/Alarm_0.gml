@@ -24,6 +24,8 @@ if (floor(newWidth) != targetWidth || floor(newHeight) != targetHeight) {
   closeup = true;
   ready = true;
   player.alarm[0] = 1;
-  objGameControl.alarm[0] = 1;  
-  objGameControl.alarm[1] = 1;  
+  objGameControl.showZoomMessage = true;  
+  objGameControl.showRJMessage = true;
+  objGameControl.alarm[0] = room_speed * 4;
+  objGameControl.alarm[1] = room_speed * 3;  
 }

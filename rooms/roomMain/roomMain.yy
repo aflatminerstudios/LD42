@@ -8,12 +8,12 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "3b23daaf-25cb-435f-bfd6-74bbd4d69381",
-        "d0dc7917-6422-4832-810d-54f42b0215b6",
         "04520bae-f720-46e3-b088-aba51b47fe77",
         "fe7e6980-71d4-4c67-a02c-54405d5ce980",
         "7d74cff3-239a-4638-baf8-649223a5fa71",
         "1f91ad9d-5742-4b90-af82-012f87333255",
-        "16d3d73d-3389-41d4-ad55-3e20b91f46a8"
+        "16d3d73d-3389-41d4-ad55-3e20b91f46a8",
+        "4a6254b9-330f-4928-91d5-c41a72a2bf9d"
     ],
     "IsDnD": false,
     "layers": [
@@ -31,7 +31,6 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_13980EEF","id": "d0dc7917-6422-4832-810d-54f42b0215b6","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_13980EEF","objId": "27ca0ee1-ec32-41af-834b-6aa6cf49f26d","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 64,"y": 0},
 {"name": "inst_7276960C","id": "3b23daaf-25cb-435f-bfd6-74bbd4d69381","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7276960C","objId": "eaf081d0-42c1-4055-b2b6-6748b018e33d","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1664,"y": 256},
 {"name": "inst_2ECB96A4","id": "1f91ad9d-5742-4b90-af82-012f87333255","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2ECB96A4","objId": "9b28d518-4c27-458e-bf7a-46fbe69c98e6","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 64},
 {"name": "inst_131ABE75","id": "16d3d73d-3389-41d4-ad55-3e20b91f46a8","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_131ABE75","objId": "08ed603c-b6f0-48e2-b778-88936f03378a","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 32}
@@ -48,9 +47,35 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "GameControllerHUD",
+            "id": "2eb461b5-2f4e-4407-92cd-82ed53473ca2",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_A2D445B","id": "4a6254b9-330f-4928-91d5-c41a72a2bf9d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_A2D445B","objId": "27ca0ee1-ec32-41af-834b-6aa6cf49f26d","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 288,"y": 224}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "SpaceJunk",
             "id": "4ea43c00-77cb-4666-a552-854920c0fdf3",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -76,7 +101,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "StarfieldMiddleGround",
             "id": "8d96d61b-6b11-4801-9d35-994aa047bdb9",
-            "depth": 200,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -105,7 +130,7 @@
             "assets": [
 
             ],
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -128,7 +153,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "StarfieldBG",
             "id": "ea155562-99dd-44a4-9202-f6b9b47173c0",
-            "depth": 400,
+            "depth": 500,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -157,7 +182,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 500,
+            "depth": 600,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
